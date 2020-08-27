@@ -157,7 +157,13 @@ h1 {
   padding: 15px;
 }
 
-.container-dark {
+.container-full {
+  margin-left: auto;
+  margin-right: auto;
+  
+  padding: 5px;
+}
+.container-white {
     background-color:white;
 }
 
@@ -170,4 +176,10 @@ h1 {
 .card-padding {
     padding: 5px;
     
+}
+
+.spacer {
+    margin-top: 25px;
+    margin-bottom: 25px;
+
 }
