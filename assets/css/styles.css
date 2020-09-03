@@ -21,6 +21,13 @@ h1 {
 
 }
 
+/* Dark Mode */
+
+.darkmode {
+    background-color: black;
+    color: white;
+}
+
 
 /* End of default styles */
 
