@@ -7,6 +7,7 @@ $(document).ready(function(){
 
 $('#btn-all').click(function(){
     $('#hero').removeClass().addClass('hero-hydra');
+    $('.hero-text p').empty()
     $('.singers').show();
     $('.producers').show();
     $('.remixers').show();
@@ -17,6 +18,7 @@ $('#btn-all').click(function(){
 
 $('#btn-singers').click(function(){
     $('#hero').removeClass().toggleClass('hero-singer');
+    $('.hero-text p').empty().append('<br><h3 class="focus-in-contract-bck" >Singers</h3>');
     $('.singers').show(2000);
     $('.producers').hide(2000);
     $('.remixers').hide(2000);
@@ -26,6 +28,7 @@ $('#btn-singers').click(function(){
  
 $('#btn-producers').click(function(){
     $('#hero').removeClass().toggleClass('hero-producers');
+    $('.hero-text p').empty().append('<br><h3 class="focus-in-contract-bck" >Producers</h3>');
     $('.singers').hide(2000);
     $('.producers').show(2000);
     $('.remixers').hide(2000);
@@ -36,6 +39,7 @@ $('#btn-producers').click(function(){
 
 $('#btn-remixers').click(function(){
     $('#hero').removeClass().toggleClass('hero-remixers');
+    $('.hero-text p').empty().append('<br><h3 class="focus-in-contract-bck" >Remixers</h3>');
     $('.singers').hide(2000);
     $('.producers').hide(2000);
     $('.remixers').show(2000);
@@ -46,6 +50,7 @@ $('#btn-remixers').click(function(){
 
 $('#btn-consultancy').click(function(){
     $('#hero').removeClass().toggleClass('hero-consultancy');
+    $('.hero-text p').empty().append('<br><h3 class="focus-in-contract-bck">Consultancy</h3>');
     $('.singers').hide(2000);
     $('.producers').hide(2000);
     $('.remixers').hide(2000);
@@ -54,4 +59,57 @@ $('#btn-consultancy').click(function(){
 
 });
 
+
+$('#btn-map').click(function(){
+    $('#map-toggle').toggle();
 });
+
+// Mouse fade events - changing hero section and more info display on cards
+
+$('.singers').mouseenter(function(){
+    $('#hero').removeClass().toggleClass('hero-singer');
+    $('.hero-text p').empty().append('<br><h3 class="focus-in-contract-bck" >Singers</h3>');
+
+});
+
+$('.producers').mouseenter(function(){
+    $('#hero').removeClass().toggleClass('hero-producers');
+    $('.hero-text p').empty().append('<br><h3 class="focus-in-contract-bck" >Producers</h3>');
+});
+
+$('.remixers').mouseenter(function(){
+    $('#hero').removeClass().toggleClass('hero-remixers');
+$('.hero-text p').empty().append('<br><h3 class="focus-in-contract-bck" >Remixers</h3>');
+});
+
+$('.consultancy').mouseenter(function(){
+    $('#hero').removeClass().toggleClass('hero-consultancy');
+$('.hero-text p').empty().append('<br><h3 class="focus-in-contract-bck">Consultancy</h3>');
+});
+
+
+//mouse leave 
+
+
+$('.singers').mouseleave(function(){
+    $('#hero').removeClass().toggleClass('hero-hydra');
+$('.hero-text p').empty()
+});
+
+$('.producers').mouseleave(function(){
+    $('#hero').removeClass().toggleClass('hero-hydra');
+$('.hero-text p').empty()
+});
+
+$('.remixers').mouseleave(function(){
+    $('#hero').removeClass().toggleClass('hero-hydra');
+$('.hero-text p').empty()
+});
+
+$('.consultancy').mouseleave(function(){
+    $('#hero').removeClass().toggleClass('hero-hydra');
+$('.hero-text p').empty()
+});
+
+
+})

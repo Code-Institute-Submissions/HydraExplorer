@@ -63,22 +63,23 @@
                 placeholder="Search"
                 aria-label="Search"
               />
-            </div>
-				</form>
-			</div>
-		</nav>  
-		<!-- End /.Navbar-->
+            </div>    
+				</form>  
+			</div> 
+		</nav>      
+		<!-- End /.Navbar-->  
 		<div class="container-fluid">
 			<!--Hero Section -->
 
 			<div class="hero-text">
 				<h1 class="text-focus-in">Hydra Explorer</h1>
-				<p class="focus-in-contract-bck">Find your Music Professional</p>
+                <h5 class="focus-in-contract-bck">Find your Music Professional</h5>
+				<p></p>
 			</div>
-		</div> 
+		</div>  
 	</header> 
   
-	<section> 
+	<section>  
 		<div class="container-max">
 			<div class="container-fluid">
 				<div class="row">
@@ -146,20 +147,18 @@
 			</div>
 		</div>
 	</section>
-
-	<section>
-
+   
+	<section> 
+ 
 	</section>
-
+ 
 	<!-- div card and map display-->
 
 	<section>
 
 <div class="container-fluid row-background spacer">
 <div class="col text-right ">
-						<button class="btn btn-dark btn-sm"><i class="fas fa-square mr-1"></i></button>
-						<button class="btn btn-dark btn-sm"><i class="fas fa-th-large mr-1"></i></button>
-						<button class="btn btn-dark btn-sm"><i class="fas fa-map-marked-alt"></i></button>
+						<button id="btn-map" class="btn btn-dark btn-sm"><i class="fas fa-map-marked-alt"></i></button>
 					</div>
 		<div class="row  ">
         
@@ -171,9 +170,9 @@
 					<div class="card">
 						<!-- Card image -->
 						<div class="view overlay">
-							<img
+			 				<img
                   class="card-img-top"
-                  src="assets/img/events.jpg"
+                  src="assets/img/events.jpg" 
                   alt="Card image cap"
                 />
 							<a href="#!">
@@ -189,19 +188,20 @@
 							<p class="card-text">${username} ${tags}</p>
 						</div>
 					</div>
-					<!-- Card -->
+					<!-- Card --> 
+
 				</div>
 
-				<div class="col-sm-12 col-md-8 col-lg-9 text-center spacer">
+				<div id="map-toggle" class="col-sm-12 col-md-8 col-lg-9 text-center spacer">
 					<!--Google map-->
 					<h4>Located</h4>
 					<div id="map" class="z-depth-1-half map-container rounded-lg " style="height: 500px;"></div>
 
 					<!--Google Maps-->
 				</div>
-			</div>
-		</div>
-        
+			</div> 
+		</div>    
+          
 	</section>
 
 	<!--End of Content-->
