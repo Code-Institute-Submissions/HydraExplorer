@@ -11,8 +11,10 @@
 }
 body {
   font-family: "Poppins", sans-serif;
-  line-height: 1.6;
+  line-height: 1.6;    
 }
+
+
 
 
 h1 {
@@ -21,12 +23,6 @@ h1 {
 
 }
 
-/* Dark Mode */
-
-.darkmode {
-    background-color: black;
-    color: white;
-}
 
 
 /* End of default styles */
@@ -304,3 +300,13 @@ background-color: #fafafa;
     padding: 1px;
 
 }
+
+
+/* Dark Mode */
+
+/* .darkmode {
+    background-color: black;
+    color: white;
+    font-size: 500px;
+
+} */
