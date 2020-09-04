@@ -293,7 +293,7 @@ h1 {
 .row-background {
 background-color: #fafafa;
 
-}
+} 
 
 
 .btn-pad {
@@ -304,9 +304,8 @@ background-color: #fafafa;
 
 /* Dark Mode */
 
-/* .darkmode {
+.darkmode {
     background-color: black;
-    color: white;
-    font-size: 500px;
+    
 
-} */
+}
