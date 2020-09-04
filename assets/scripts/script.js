@@ -75,7 +75,7 @@ $(document).ready(function () {
 
 
     $('#btn-map').click(function () {
-        $('#map-toggle').toggle(2000);
+        $('#map').toggle(1000);
     });
 
     // Mouse fade events - changing hero section and more info display on cards, going to test my knowledge, adding an active state to enable or disable mouse enter...wish me luck! better commit lol!
