@@ -21,7 +21,7 @@ $('#btn-singers').click(function(){
 $('#btn-all').click(function(){
     $('#hero').removeClass().addClass('hero-hydra');
     $('.hero-text p').empty()
-    $('.singers, .producers, .remixers, .consultancy ').show().removeClass('');
+    $('.singers, .producers, .remixers, .consultancy ').show()
 
     // Condensed down code to multiple selectors, keeping in below as evidence of previous code.
     // $('.producers').show();
@@ -31,13 +31,17 @@ $('#btn-all').click(function(){
  
 });
 
+
 $('#btn-singers').click(function(){
     $('#hero').removeClass().toggleClass('hero-singer');
     $('.hero-text p').empty().append('<br><h3 class="focus-in-contract-bck" >Singers</h3>');
-    $('.singers').show(2000);
-    $('.producers, .remixers, .consultancy').hide(2000);
+    $('.singers').show(2000).removeClass('').addClass('');
+    $('.producers, .remixers, .consultancy').fadeTo(1000, 0.5);
+    
+    // Condensed down !
     // $('.remixers').hide(2000);
     // $('.consultancy').hide(2000);
+
 
 });
 
@@ -47,7 +51,7 @@ $('#btn-producers').click(function(){
     $('#hero').removeClass().toggleClass('hero-producers');
     $('.hero-text p').empty().append('<br><h3 class="focus-in-contract-bck" >Producers</h3>');
     $('.producers').show(2000).removeClass('').addClass('');
-    $('.singers, .remixers, .consultancy').hide(2000);
+    $('.singers, .remixers, .consultancy').fadeTo(1000, 0.5);
     
     // Condensed down !
     // $('.remixers').hide(2000);
@@ -60,7 +64,7 @@ $('#btn-remixers').click(function(){
     $('#hero').removeClass().toggleClass('hero-remixers');
     $('.hero-text p').empty().append('<br><h3 class="focus-in-contract-bck" >Remixers</h3>');
     $('.remixers').show(2000).removeClass('').addClass('');
-    $('.singers, .producers, .consultancy ').hide(2000);
+    $('.singers, .producers, .consultancy ').fadeTo(1000, 0.5);
     // Condensed down !
     // $('.producers').hide(2000);
     // $('.consultancy').hide(2000);
@@ -73,7 +77,7 @@ $('#btn-consultancy').click(function(){
     $('.hero-text p').empty().append('<br><h3 class="focus-in-contract-bck">Consultancy</h3>');
 
     $('.consultancy').show(2000).removeClass('').addClass('');
-    $('.singers, .producers, .remixers').hide(2000);
+    $('.singers, .producers, .remixers').hide();
     // Condensed down !
     // $('.producers').hide(2000);
     // $('.remixers').hide(2000);
