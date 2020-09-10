@@ -11,7 +11,7 @@ ourRequest.onload = function(){
 
     if(ourRequest.status >= 200 && ourRequest.status <400) {
         let data = JSON.parse(ourRequest.responseText);
-        // console.log(data);
+        console.log('A OK El Capitan!');
         createHTML(data);
     }
     else{
@@ -27,12 +27,20 @@ ourRequest.onerror = function(){
 ourRequest.send();
 
 
+// Handlebars.js - template function 
+
 function createHTML(hydraUserData) {
+     
+
     let rawTemplate = document.getElementById('userCardTemplate').innerHTML;
     let compiledTemplate = Handlebars.compile(rawTemplate);
-    // let ourGeneratedHTML = compiledTemplate(hydraUserData);
-    console.log(hydraUserData)
+    let ourGeneratedHTML = compiledTemplate(hydraUserData);
+   
+   let userContainer = document.getElementById('user-card-container');
+   userContainer.innerHTML = ourGeneratedHTML;
+
+   console.log(hydraUserData);
+
 }
 
-// let userContainer = document.getElementById('user-card-container');
-// userContainer.innerHTML = ourGeneratedHTML;
+
