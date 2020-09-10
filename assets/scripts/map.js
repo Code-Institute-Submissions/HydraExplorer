@@ -1,14 +1,4 @@
 
-// // $('#col-switch-map-hide').click(function(){
-// //   $('#map').toggle('slow');
-// //   $('#filter').removeClass('').addClass('col-6 col-md-2');
-// //     $('#card-results').removeClass('').toggleClass('col-6 col-md-10');
-// // });
-
-
-
-
-
 // credits: Google maps documentation, code institute Google maps Api, Brad Traversy Google Maps API youtube tutorial.
 
 // Initialize and add the map
