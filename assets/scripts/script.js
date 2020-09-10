@@ -1,5 +1,5 @@
 //Added in document.ready function to ensure that all html is loaded before these scripts run.
-
+//Jquery 
 $(document).ready(function () {
 
 

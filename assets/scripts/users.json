@@ -1,0 +1,60 @@
+{
+    "users":
+[
+  {
+  "name": "Dan Thomas",
+  "type": "Remixer",
+  "Genre": "EDM",
+  "tags": ["Remixing", "Production", "Engineering"],
+  "location": "Newcastle Upon Tyne",
+  "Country": "United Kingdom",
+  "image": "URL:",
+  "profileUrl": "URL:"
+},
+
+  {
+  "name": "K-Syran",
+  "type": "Singer",
+  "Genre": "EDM",
+  "tags": ["Vocals", "Performance", "songwriting"],
+  "location": "London",
+  "Country": "United Kingdom",
+  "image": "URL:",
+  "profileUrl": "URL:"
+},
+
+  {
+  "name": "VASSY",
+  "type": "Singer",
+  "Genre": "EDM",
+  "tags": ["Vocals", "Performance", "songwriting"],
+  "location": "LA",
+  "Country": "United States",
+  "image": "URL:",
+  "profileUrl": "URL:"
+},
+
+  {
+  "name": "Joseph Viteritto",
+  "type": "Producer",
+  "Genre": "Pop",
+  "tags": ["songwriting", "Production", "Engineering"],
+  "location": "Connecticut",
+  "Country": "United States",
+  "image": "URL:",
+  "profileUrl": "URL:"
+},
+
+  {
+  "name": "Eddie Gordon",
+  "type": "Consultancy",
+  "Genre": "EDM",
+  "tags": ["Promotions", "Consulting", "Management"],
+  "location": "California",
+  "Country": "United States",
+  "image": "URL:",
+  "profileUrl": "URL:"
+}
+
+]
+ }

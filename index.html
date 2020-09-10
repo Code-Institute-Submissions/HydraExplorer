@@ -158,42 +158,24 @@
 	<section>
 
 <div class="container-fluid row-background spacer">
-<div class="col text-right ">
+<div class="col text-right "> 
 						<button id="btn-map" class="btn btn-dark btn-sm"><i class="fas fa-map-marked-alt"></i></button>
 					</div>
                     
-		<div class="row  ">
+		<div class="row  "> 
         
 			  
 
 				<div id="user-grid" class="col-sm-12 col-md-4 col-lg-3 text-center spacer">
                 <div class="div">
-					<h4>Users</h4>
-					<!-- Card -->  
-					<div class="card">
-						<!-- Card image -->  
-						<div class="view overlay">
-			 				<img 
-                  class="card-img-top"   
-                  src="assets/img/events.jpg" 
-                  alt="Card image cap"
-                />
-							<a href="#!">
-								<div class="mask rgba-white-slight"></div>
-							</a>
-						</div>
-
-						<!-- Card content -->
-						<div class="card-body">
-							<!-- Title -->
-							<h4 class="card-title">${type}</h4>
-							<!-- Text -->
-							<p class="card-text">${username} ${tags}</p>
-						</div>
-					</div>
+					<h4>Users - insert handlebars temps here</h4>
+					
+                    <div class="div" id="user-card-container">
+                    
                     </div>
-					<!-- Card --> 
 
+
+</div>
 				</div>
 
 				<div id="map-toggle" class="col-sm-12 col-md-8 col-lg-9 text-center spacer">
@@ -317,7 +299,7 @@
 					<p><i class="fas fa-envelope mr-3"></i> Dan@hydrasound.com</p>
 					<p><i class="fas fa-phone mr-3"></i> + 07 544 905 639</p>
 					<p></p>
-				</div> 
+				</div>  
 
 				<!-- Grid column -->
 			</div>
@@ -332,7 +314,15 @@
 		</div>
 		<!-- Copyright -->
 	</footer> 
-	<!-- Footer -->
+	<!-- Footer --> 
+<!-- Handlebars Template scripts-->
+
+<script id="userCardTemplate" type="text/x-handlebars-template">
+                    {{#each users}}
+                    <h4>{{name}}</h4>
+                    {{/each}}
+
+                    </script>
 
 	<!--Google Maps API script-->
 	<script defer
@@ -352,8 +342,15 @@
 		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
 	</script>
 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.js" integrity="sha512-MQkEjxbZvzs4TX8ES4/tTIyaYdtDlJzVocnPo0GoysTR0jCmNg0P2is7uqpCoWxmoS9X84CDVzuWgZD/R/Q2oQ==" crossorigin="anonymous"></script>
+
+
 	<!-- My scripts - Main-->
 	<script type="text/javascript" src="assets/scripts/script.js"></script>
+
+    <!-- My scripts - Main-->
+	<script type="text/javascript" src="assets/scripts/main.js"></script>
 
     <!-- My scripts - Dark Mode-->
 	<script type="text/javascript" src="assets/scripts/darkmode.js"></script>
