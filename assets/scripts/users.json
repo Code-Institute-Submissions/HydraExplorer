@@ -4,17 +4,19 @@
   {
   "name": "Dan Thomas",
   "type": "Remixer",
+  "class": "remixers",
   "Genre": "EDM",
   "tags": ["Remixing", "Production", "Engineering"],
   "location": "Newcastle Upon Tyne",
   "Country": "United Kingdom",
-  "image": "URL:",
+  "image": "/profileimg/danthomas.jpg",
   "profileUrl": "URL:"
 },
 
   {
   "name": "K-Syran",
   "type": "Singer",
+  "class": "singers",
   "Genre": "EDM",
   "tags": ["Vocals", "Performance", "songwriting"],
   "location": "London",
@@ -26,6 +28,7 @@
   {
   "name": "VASSY",
   "type": "Singer",
+  "class": "singers",
   "Genre": "EDM",
   "tags": ["Vocals", "Performance", "songwriting"],
   "location": "LA",
@@ -37,6 +40,7 @@
   {
   "name": "Joseph Viteritto",
   "type": "Producer",
+  "class": "producers",
   "Genre": "Pop",
   "tags": ["songwriting", "Production", "Engineering"],
   "location": "Connecticut",
@@ -48,6 +52,7 @@
   {
   "name": "Eddie Gordon",
   "type": "Consultancy",
+  "class": "consultancy",
   "Genre": "EDM",
   "tags": ["Promotions", "Consulting", "Management"],
   "location": "California",
