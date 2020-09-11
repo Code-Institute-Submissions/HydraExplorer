@@ -187,15 +187,16 @@
           </button>
         </div>
 
+
         <div class="row">
           <div
             id="user-grid"
             class="col-sm-12 col-md-4 col-lg-3 text-center spacer"
           >
             <div class="div">
-              <h4>Users - insert handlebars temps here</h4>
+              <h4>Users</h4>
 
-              <div class="div" id="user-card-container"></div>
+              <div class="div " id="user-card-container"></div>
             </div>
           </div>
 
@@ -354,42 +355,46 @@
         <a href="https://hydrasound.com/"> Hydrasound.com</a>
       </div>
       <!-- Copyright --> 
-    </footer>
+    </footer> 
     <!-- Footer -->
+
+
     <!-- Handlebars Template scripts-->
 
     <script id="userCardTemplate" type="text/x-handlebars-template">
       <!-- Card  -->
       {{#each users}}
         <!-- Card -->
-        <div class="div card-padding">
+
+        <div class="div card-padding {{{class}}}" style="width: 20rem;">
         <div class="card card-cascade">
           <!-- Card image -->
-          <div class="view view-cascade overlay">
-            <img class="card-img-top" src="{{image}}">
-              <div class="mask rgba-white-slight"></div>
-            </a>
-          </div>
-
+  <div class="view overlay">
+    <img class="card-img-top"
+      src="{{{image}}}" alt="Card image cap">
+    <a>
+      <div class="mask rgba-white-slight"></div>
+    </a>
+  </div>
           <!-- Card content -->
-          <div class="card-body">
-            <!-- Title -->
-            <h4 class="card-title">
-              {{name}}
-            </h4>
-            <!-- Text -->
+		<div class="card-body">
+			<!-- Title -->
+			<h4 class="card-title"> {{name}}</h4>
+			<!-- Text -->
+			<h5 class="card-text"><b>{{type}}</b> </h5><span><b>Genre</b> {{Genre}}</span>
+            <p> <b>Location</b> {{location}}</p>
+            <p> <b>Country</b> {{Country}}</p>
             <p class="card-text">
-              {{tags}}
-            </p>
-            <a href="{{profileUrl}}" class="btn btn-dark rounded">
-              Profile
-            </a>
-          </div>
-        </div>
-        </div>
-      {{/each}}
-    </script>
-
+				<em>{{tags}}</em> </p>
+			<a href="{{{profileUrl}}}" class="btn btn-dark rounded">
+				Profile
+			</a>
+			
+		</div>
+		</div>
+		</div>
+		{{/each}}
+		</script>
     <!-- Card for layout handlebars template END -->
 
     <!--Google Maps API script-->
