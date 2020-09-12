@@ -11,7 +11,7 @@ ourRequest.onload = function () {
     let data = JSON.parse(ourRequest.responseText);
     console.log("A OK El Capitan!");
     createHTML(data);
-  } else {
+  } else { 
     console.log("we connected to the server but it returned an error");
   }
 };
