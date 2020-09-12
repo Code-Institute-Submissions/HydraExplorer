@@ -1,65 +1,68 @@
 {
-    "users":
-[
-  {
-  "name": "Dan Thomas",
-  "type": "Remixer",
-  "class": "remixers",
-  "Genre": "EDM",
-  "tags": ["Remixing", "Production", "Engineering"],
-  "location": "Newcastle Upon Tyne",
-  "Country": "United Kingdom",
-  "image": "/assets/img/profileimg/danthomas.jpg",
-  "profileUrl": "https://hydrasound.com"
-},
+  "users": [
+    {
+      "name": "Dan Thomas",
+      "type": "Remixer",
+      "class": "remixers",
+      "Genre": "EDM",
+      "tags": ["Remixing", "Production", "Engineering"],
+      "location": "Newcastle Upon Tyne",
+      "Country": "United Kingdom",
+      "image": "/assets/img/profileimg/danthomas.jpg",
+      "profileUrl": "https://hydrasound.com",
+      "bio": "insert Biography here!"
+    },
 
-  {
-  "name": "K-Syran",
-  "type": "Singer",
-  "class": "singers",
-  "Genre": "EDM",
-  "tags": ["Vocals", "Performance", "songwriting"],
-  "location": "London",
-  "Country": "United Kingdom",
-  "image": "/assets/img/profileimg/ksyran.jpg",
-  "profileUrl": "https://hydrasound.com"
-},
+    {
+      "name": "K-Syran",
+      "type": "Singer",
+      "class": "singers",
+      "Genre": "EDM",
+      "tags": ["Vocals", "Performance", "songwriting"],
+      "location": "London",
+      "Country": "United Kingdom",
+      "image": "/assets/img/profileimg/ksyran.jpg",
+      "profileUrl": "https://hydrasound.com",
+      "bio": "insert Biography here!"
+    },
 
-  {
-  "name": "VASSY",
-  "type": "Singer",
-  "class": "singers",
-  "Genre": "EDM",
-  "tags": ["Vocals", "Performance", "songwriting"],
-  "location": "LA",
-  "Country": "United States",
-  "image": "/assets/img/profileimg/vassy.jpg",
-  "profileUrl": "https://hydrasound.com"
-},
+    {
+      "name": "VASSY",
+      "type": "Singer",
+      "class": "singers",
+      "Genre": "EDM",
+      "tags": ["Vocals", "Performance", "songwriting"],
+      "location": "LA",
+      "Country": "United States",
+      "image": "/assets/img/profileimg/vassy.jpg",
+      "profileUrl": "https://hydrasound.com",
+      "bio": "insert Biography here!"
+    },
 
-  {
-  "name": "Joseph Viteritto",
-  "type": "Producer",
-  "class": "producers",
-  "Genre": "Pop",
-  "tags": ["songwriting", "Production", "Engineering"],
-  "location": "Connecticut",
-  "Country": "United States",
-  "image": "/assets/img/profileimg/joseph.jpg",
-  "profileUrl": "https://hydrasound.com"
-},
+    {
+      "name": "Joseph Viteritto",
+      "type": "Producer",
+      "class": "producers",
+      "Genre": "Pop",
+      "tags": ["songwriting", "Production", "Engineering"],
+      "location": "Connecticut",
+      "Country": "United States",
+      "image": "/assets/img/profileimg/joseph.jpg",
+      "profileUrl": "https://hydrasound.com",
+      "bio": "insert Biography here!"
+    },
 
-  {
-  "name": "Eddie Gordon",
-  "type": "Consultancy",
-  "class": "consultancy",
-  "Genre": "EDM",
-  "tags": ["Promotions", "Consulting", "Management"],
-  "location": "California",
-  "Country": "United States",
-  "image": "/assets/img/profileimg/eddie.jpg",
-  "profileUrl": "https://hydrasound.com"
+    {
+      "name": "Eddie Gordon",
+      "type": "Consultancy",
+      "class": "consultancy",
+      "Genre": "EDM",
+      "tags": ["Promotions", "Consulting", "Management"],
+      "location": "California",
+      "Country": "United States",
+      "image": "/assets/img/profileimg/eddie.jpg",
+      "profileUrl": "https://hydrasound.com",
+      "bio": "insert Biography here!"
+    }
+  ]
 }
-
-]
- }
