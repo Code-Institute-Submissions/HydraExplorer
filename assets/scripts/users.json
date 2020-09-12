@@ -8,7 +8,7 @@
       "tags": ["Remixing", "Production", "Engineering"],
       "location": "Newcastle Upon Tyne",
       "Country": "United Kingdom",
-      "image": "/assets/img/profileimg/danthomas.jpg",
+      "image": "https://danielboots.github.io/HydraExplorer/assets/img/profileimg/danthomas.jpg",
       "profileUrl": "https://hydrasound.com",
       "bio": "insert Biography here!"
     },
@@ -21,7 +21,7 @@
       "tags": ["Vocals", "Performance", "songwriting"],
       "location": "London",
       "Country": "United Kingdom",
-      "image": "/assets/img/profileimg/ksyran.jpg",
+      "image": "https://danielboots.github.io/HydraExplorer/assets/img/profileimg/ksyran.jpg",
       "profileUrl": "https://hydrasound.com",
       "bio": "insert Biography here!"
     },
@@ -34,7 +34,7 @@
       "tags": ["Vocals", "Performance", "songwriting"],
       "location": "LA",
       "Country": "United States",
-      "image": "/assets/img/profileimg/vassy.jpg",
+      "image": "https://danielboots.github.io/HydraExplorer/assets/img/profileimg/vassy.jpg",
       "profileUrl": "https://hydrasound.com",
       "bio": "insert Biography here!"
     },
@@ -47,7 +47,7 @@
       "tags": ["songwriting", "Production", "Engineering"],
       "location": "Connecticut",
       "Country": "United States",
-      "image": "/assets/img/profileimg/joseph.jpg",
+      "image": "https://danielboots.github.io/HydraExplorer/assets/img/profileimg/joseph.jpg",
       "profileUrl": "https://hydrasound.com",
       "bio": "insert Biography here!"
     },
@@ -60,7 +60,7 @@
       "tags": ["Promotions", "Consulting", "Management"],
       "location": "California",
       "Country": "United States",
-      "image": "/assets/img/profileimg/eddie.jpg",
+      "image": "https://danielboots.github.io/HydraExplorer/assets/img/profileimg/eddie.jpg",
       "profileUrl": "https://hydrasound.com",
       "bio": "insert Biography here!"
     }
