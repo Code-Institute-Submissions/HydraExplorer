@@ -5,7 +5,7 @@ functionality to the members profile by using external API from Spotify to creat
 
 let ourRequest = new XMLHttpRequest();
 
-ourRequest.open("GET", "https://danielboots.github.io/HydraExplorer/assets/scripts/users.json");
+ourRequest.open("GET", "https://danielboots.github.io/HydraExplorer/assets/data/users.json");
 ourRequest.onload = function () {
   if (ourRequest.status >= 200 && ourRequest.status < 400) {
     let data = JSON.parse(ourRequest.responseText);

@@ -11,7 +11,10 @@
       "image": "https://danielboots.github.io/HydraExplorer/assets/img/profileimg/danthomas.jpg",
       "profileUrl": "https://hydrasound.com",
       "bio": "insert Biography here!",
-      "maploc": { "lng": 54.925696, "lat": -1.7522063 }
+      "longitude": 54.925696,
+      "latitude": -1.7522063
+      
+
     },
     
     {
@@ -25,7 +28,9 @@
       "image": "https://danielboots.github.io/HydraExplorer/assets/img/profileimg/danthomas.jpg",
       "profileUrl": "https://hydrasound.com",
       "bio": "insert Biography here!",
-      "maploc": { "lng": 25.8011101, "lat": -80.130116 }
+      "longitude": 25.8011101,
+      "latitude": -80.130116
+    
     },
 
     {
@@ -39,7 +44,9 @@
       "image": "https://danielboots.github.io/HydraExplorer/assets/img/profileimg/ksyran.jpg",
       "profileUrl": "https://hydrasound.com",
       "bio": "insert Biography here!",
-      "maploc": { "lng": 51.513099, "lat": -0.1340533 }
+      "longitude": 51.513099,
+      "latitude": -0.1340533 
+
     },
 
     {
@@ -53,7 +60,9 @@
       "image": "https://danielboots.github.io/HydraExplorer/assets/img/profileimg/vassy.jpg",
       "profileUrl": "https://hydrasound.com",
       "bio": "insert Biography here!",
-      "maploc": { "lng": 34.0203996, "lat": -118.5518134 }
+      "longitude": 34.0203996,
+      "latitude": -118.5518134
+     
     },
 
     {
@@ -67,7 +76,9 @@
       "image": "https://danielboots.github.io/HydraExplorer/assets/img/profileimg/joseph.jpg",
       "profileUrl": "https://hydrasound.com",
       "bio": "insert Biography here!",
-      "maploc": { "lng": 41.603222, "lat": -73.087746 }
+      "longitude": 41.603222,
+      "latitude": -73.087746
+      
     },
 
     {
@@ -81,7 +92,9 @@
       "image": "https://danielboots.github.io/HydraExplorer/assets/img/profileimg/eddie.jpg",
       "profileUrl": "https://hydrasound.com",
       "bio": "insert Biography here!",
-      "maploc": { "lng": 34.0937458, "lat": -118.3614973 }
+      "longitude": 34.0937458,
+      "latitude": -118.3614973
+
     }
   ]
 }

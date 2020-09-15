@@ -1,15 +1,13 @@
 
+// credits: Google maps documentation, code institute Google maps Api, Brad Traversy Google Maps API youtube tutorial.
+
 // Initialize and add the map
 function initMap() {
+  // The location of Rowlands Gill
 
   let options = {
-    zoom: 10,
-    // The location of Rowlands Gill
+    zoom: 4,
     center: { lat: 54.9247, lng: -1.7427 },
-
-
-    //   BEGIN STYLES OF MAP 
-
     styles: [
       {
         featureType: "all",
@@ -394,14 +392,30 @@ function initMap() {
       },
     ],
   };
+  //   let rGill = {lat: 54.9247, lng: -1.7427};
 
-
-//   END STYLES OF MAP 
-
-
-
+  // The map, centered at Rowlands Gill
 
   let map = new google.maps.Map(document.getElementById("map"), options);
+
+  /*
+    // init Marker, positioned at Rowlands Gill
+    let marker = new google.maps.Marker({
+        position: {lat: 54.9247, lng: -1.7427}, 
+        map: map,
+  
+        //change this icon initially from docs as example but need to be logo or better icon.
+        icon: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'
+        });
+  
+  let infoWindow = new google.maps.InfoWindow({
+      content: '<h3>Code for Marker position: Rowlands Gill</h3>'
+  });
+  
+  marker.addListener('click',function(){
+      infoWindow.open(map, marker);
+  })
+  */
 
 
 //   this should be linked to JSON data for users file name: users.json
