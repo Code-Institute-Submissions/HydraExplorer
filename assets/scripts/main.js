@@ -33,4 +33,5 @@ function createHTML(hydraUserData) {
   userContainer.innerHTML = ourGeneratedHTML;
 
   console.log(hydraUserData);
-}
+} 
+

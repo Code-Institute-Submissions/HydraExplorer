@@ -10,7 +10,22 @@
       "Country": "United Kingdom",
       "image": "https://danielboots.github.io/HydraExplorer/assets/img/profileimg/danthomas.jpg",
       "profileUrl": "https://hydrasound.com",
-      "bio": "insert Biography here!"
+      "bio": "insert Biography here!",
+      "maploc": { "lng": 54.925696, "lat": -1.7522063 }
+    },
+    
+    {
+      "name": "Hydrasound",
+      "type": "Consultancy",
+      "class": "consultancy",
+      "Genre": "EDM",
+      "tags": ["Remixing", "Production", "Engineering"],
+      "location": "Miami",
+      "Country": "USA",
+      "image": "https://danielboots.github.io/HydraExplorer/assets/img/profileimg/danthomas.jpg",
+      "profileUrl": "https://hydrasound.com",
+      "bio": "insert Biography here!",
+      "maploc": { "lng": 25.8011101, "lat": -80.130116 }
     },
 
     {
@@ -23,7 +38,8 @@
       "Country": "United Kingdom",
       "image": "https://danielboots.github.io/HydraExplorer/assets/img/profileimg/ksyran.jpg",
       "profileUrl": "https://hydrasound.com",
-      "bio": "insert Biography here!"
+      "bio": "insert Biography here!",
+      "maploc": { "lng": 51.513099, "lat": -0.1340533 }
     },
 
     {
@@ -36,7 +52,8 @@
       "Country": "United States",
       "image": "https://danielboots.github.io/HydraExplorer/assets/img/profileimg/vassy.jpg",
       "profileUrl": "https://hydrasound.com",
-      "bio": "insert Biography here!"
+      "bio": "insert Biography here!",
+      "maploc": { "lng": 34.0203996, "lat": -118.5518134 }
     },
 
     {
@@ -49,7 +66,8 @@
       "Country": "United States",
       "image": "https://danielboots.github.io/HydraExplorer/assets/img/profileimg/joseph.jpg",
       "profileUrl": "https://hydrasound.com",
-      "bio": "insert Biography here!"
+      "bio": "insert Biography here!",
+      "maploc": { "lng": 41.603222, "lat": -73.087746 }
     },
 
     {
@@ -62,7 +80,8 @@
       "Country": "United States",
       "image": "https://danielboots.github.io/HydraExplorer/assets/img/profileimg/eddie.jpg",
       "profileUrl": "https://hydrasound.com",
-      "bio": "insert Biography here!"
+      "bio": "insert Biography here!",
+      "maploc": { "lng": 34.0937458, "lat": -118.3614973 }
     }
   ]
 }
