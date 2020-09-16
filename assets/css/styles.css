@@ -285,6 +285,11 @@ h1 {
     margin: auto;
     display: inline-block;
 }
+.map-padding {
+    padding: 25px;
+    margin: auto;
+    
+}
 
 .spacer {
     margin-top: 25px;
@@ -312,8 +317,24 @@ background-color: #fafafa;
 
 /* Dark Mode */
 
-.darkmode {
+.darkmode  {
     background-color: black;
-    
-
 }
+
+.darkmode .container-white  {
+    background-color: black;
+}
+
+.darkmode .row-background  {
+    background-color:black;
+}
+
+
+.darkmode .btn { 
+    color: white;
+}
+.darkmode .headline { 
+    color: white;
+}
+
+
