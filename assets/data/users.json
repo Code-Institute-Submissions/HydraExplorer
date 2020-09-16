@@ -11,9 +11,9 @@
       "image": "https://danielboots.github.io/HydraExplorer/assets/img/profileimg/danthomas.jpg",
       "profileUrl": "https://hydrasound.com",
       "bio": "insert Biography here!",
-      "lng": 54.925696,
-      "lat": -1.7522063
-      
+      "coords": { "lat": 54.9247, "lng": -1.7427 },
+      "iconImage": ""
+
 
     },
     
@@ -28,8 +28,8 @@
       "image": "https://danielboots.github.io/HydraExplorer/assets/img/profileimg/danthomas.jpg",
       "profileUrl": "https://hydrasound.com",
       "bio": "insert Biography here!",
-      "lng": 25.8011101,
-      "lat": -80.130116
+      "coords": { "lat": 25.8011101, "lng": -80.130116 },
+      "iconImage": ""
     
     },
 
@@ -44,8 +44,8 @@
       "image": "https://danielboots.github.io/HydraExplorer/assets/img/profileimg/ksyran.jpg",
       "profileUrl": "https://hydrasound.com",
       "bio": "insert Biography here!",
-      "lng": 51.513099,
-      "lat": -0.1340533 
+      "coords": { "lat": 51.513099, "lng": -0.1340533 },
+      "iconImage": ""
 
     },
 
@@ -60,8 +60,8 @@
       "image": "https://danielboots.github.io/HydraExplorer/assets/img/profileimg/vassy.jpg",
       "profileUrl": "https://hydrasound.com",
       "bio": "insert Biography here!",
-      "lng": 34.0203996,
-      "lat": -118.5518134
+      "coords": { "lat": 40.7128, "lng": -74.0060 },
+      "iconImage": ""
      
     },
 
@@ -76,8 +76,8 @@
       "image": "https://danielboots.github.io/HydraExplorer/assets/img/profileimg/joseph.jpg",
       "profileUrl": "https://hydrasound.com",
       "bio": "insert Biography here!",
-      "lng": 41.603222,
-      "lat": -73.087746
+      "coords": { "lat": 41.603222, "lng": -73.087746 },
+      "iconImage": ""
       
     },
 
@@ -92,8 +92,8 @@
       "image": "https://danielboots.github.io/HydraExplorer/assets/img/profileimg/eddie.jpg",
       "profileUrl": "https://hydrasound.com",
       "bio": "insert Biography here!",
-      "lng": 34.0937458,
-      "lat": -118.3614973
+      "coords": { "lat": 34.0937458, "lng": -118.3614973 },
+      "iconImage": ""
 
     }
   ]
