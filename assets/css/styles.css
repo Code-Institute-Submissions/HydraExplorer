@@ -283,6 +283,7 @@ h1 {
 .card-padding {
     padding: 5px;
     margin: auto;
+    display: inline-block;
 }
 
 .spacer {
@@ -302,6 +303,12 @@ background-color: #fafafa;
 
 }
 
+
+.card-img-top {
+    width: 100%;
+    height: 10vw;
+    object-fit: cover;
+}
 
 /* Dark Mode */
 

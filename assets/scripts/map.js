@@ -470,7 +470,7 @@ function initMap() {
       name: 'Eddie Gordon', 
       coords: { lat: 34.0937458, lng: -118.3614973 },
       iconImage:
-        'https://danielboots.github.io/HydraExplorer/assets/img/profileimg/ed.png',
+        '',
 
       content:
         '<h5>Eddie Gordon</h5> <a href="index.html">Index link</a>',
