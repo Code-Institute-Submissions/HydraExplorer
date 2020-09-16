@@ -285,6 +285,11 @@ h1 {
     margin: auto;
     display: inline-block;
 }
+.footer-padding {
+    padding-top: 25px;
+    
+}
+
 .map-padding {
     padding: 25px;
     margin: auto;
@@ -318,15 +323,15 @@ background-color: #fafafa;
 /* Dark Mode */
 
 .darkmode  {
-    background-color: black;
+    background-color: #161c27;
 }
 
 .darkmode .container-white  {
-    background-color: black;
+    background-color:#161c27;
 }
 
 .darkmode .row-background  {
-    background-color:black;
+    background-color:#161c27;
 }
 
 

@@ -1,8 +1,13 @@
 //Added in document.ready function to ensure that all html is loaded before these scripts run.
 //Jquery
 $(document).ready(function () {
-  // Pill button click event to show and hide selections.
 
+ 
+
+
+
+
+  // Pill button click event to show and hide selections.
   $("#btn-all").click(function () {
     $("#hero").removeClass().addClass("hero-hydra");
     $(".hero-text p").empty();
