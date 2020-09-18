@@ -1,0 +1,700 @@
+{
+  "tracks" : [ {
+    "album" : {
+      "album_type" : "single",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2yQLqQ3PH8bsVSeuoFeykL"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2yQLqQ3PH8bsVSeuoFeykL",
+        "id" : "2yQLqQ3PH8bsVSeuoFeykL",
+        "name" : "K-Syran",
+        "type" : "artist",
+        "uri" : "spotify:artist:2yQLqQ3PH8bsVSeuoFeykL"
+      } ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/4HVhvwempe1wM60V8vHugR"
+      },
+      "href" : "https://api.spotify.com/v1/albums/4HVhvwempe1wM60V8vHugR",
+      "id" : "4HVhvwempe1wM60V8vHugR",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b2738f3eb8475535953073bcc121",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e028f3eb8475535953073bcc121",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d000048518f3eb8475535953073bcc121",
+        "width" : 64
+      } ],
+      "name" : "Hero",
+      "release_date" : "2020-06-27",
+      "release_date_precision" : "day",
+      "total_tracks" : 2,
+      "type" : "album",
+      "uri" : "spotify:album:4HVhvwempe1wM60V8vHugR"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/2yQLqQ3PH8bsVSeuoFeykL"
+      },
+      "href" : "https://api.spotify.com/v1/artists/2yQLqQ3PH8bsVSeuoFeykL",
+      "id" : "2yQLqQ3PH8bsVSeuoFeykL",
+      "name" : "K-Syran",
+      "type" : "artist",
+      "uri" : "spotify:artist:2yQLqQ3PH8bsVSeuoFeykL"
+    } ],
+    "disc_number" : 1,
+    "duration_ms" : 207142,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "QM6P42020728"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/3r2vfNA4LJ0nvNg3qbs1U4"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/3r2vfNA4LJ0nvNg3qbs1U4",
+    "id" : "3r2vfNA4LJ0nvNg3qbs1U4",
+    "is_local" : false,
+    "is_playable" : true,
+    "name" : "Hero - Radio Edit",
+    "popularity" : 24,
+    "preview_url" : "https://p.scdn.co/mp3-preview/7e4a2bdd7e83d99bc01e2f2682d4e83fb233665b?cid=774b29d4f13844c495f206cafdad9c86",
+    "track_number" : 2,
+    "type" : "track",
+    "uri" : "spotify:track:3r2vfNA4LJ0nvNg3qbs1U4"
+  }, {
+    "album" : {
+      "album_type" : "single",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2yQLqQ3PH8bsVSeuoFeykL"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2yQLqQ3PH8bsVSeuoFeykL",
+        "id" : "2yQLqQ3PH8bsVSeuoFeykL",
+        "name" : "K-Syran",
+        "type" : "artist",
+        "uri" : "spotify:artist:2yQLqQ3PH8bsVSeuoFeykL"
+      } ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/3JdgkswC3NQkWWY7UEVR5g"
+      },
+      "href" : "https://api.spotify.com/v1/albums/3JdgkswC3NQkWWY7UEVR5g",
+      "id" : "3JdgkswC3NQkWWY7UEVR5g",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b273ef944cc4ff9ab9e429fbc12a",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e02ef944cc4ff9ab9e429fbc12a",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d00004851ef944cc4ff9ab9e429fbc12a",
+        "width" : 64
+      } ],
+      "name" : "Red Dream",
+      "release_date" : "2020-05-15",
+      "release_date_precision" : "day",
+      "total_tracks" : 1,
+      "type" : "album",
+      "uri" : "spotify:album:3JdgkswC3NQkWWY7UEVR5g"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/2yQLqQ3PH8bsVSeuoFeykL"
+      },
+      "href" : "https://api.spotify.com/v1/artists/2yQLqQ3PH8bsVSeuoFeykL",
+      "id" : "2yQLqQ3PH8bsVSeuoFeykL",
+      "name" : "K-Syran",
+      "type" : "artist",
+      "uri" : "spotify:artist:2yQLqQ3PH8bsVSeuoFeykL"
+    } ],
+    "disc_number" : 1,
+    "duration_ms" : 179439,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "QM6N22010799"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/4E47quiaFC3x0oF26JllSy"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/4E47quiaFC3x0oF26JllSy",
+    "id" : "4E47quiaFC3x0oF26JllSy",
+    "is_local" : false,
+    "is_playable" : true,
+    "name" : "Red Dream",
+    "popularity" : 22,
+    "preview_url" : "https://p.scdn.co/mp3-preview/408a2c27dd4ccfcc1c05a9f3bece0080121e5f3d?cid=774b29d4f13844c495f206cafdad9c86",
+    "track_number" : 1,
+    "type" : "track",
+    "uri" : "spotify:track:4E47quiaFC3x0oF26JllSy"
+  }, {
+    "album" : {
+      "album_type" : "single",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2yQLqQ3PH8bsVSeuoFeykL"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2yQLqQ3PH8bsVSeuoFeykL",
+        "id" : "2yQLqQ3PH8bsVSeuoFeykL",
+        "name" : "K-Syran",
+        "type" : "artist",
+        "uri" : "spotify:artist:2yQLqQ3PH8bsVSeuoFeykL"
+      } ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/4HVhvwempe1wM60V8vHugR"
+      },
+      "href" : "https://api.spotify.com/v1/albums/4HVhvwempe1wM60V8vHugR",
+      "id" : "4HVhvwempe1wM60V8vHugR",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b2738f3eb8475535953073bcc121",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e028f3eb8475535953073bcc121",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d000048518f3eb8475535953073bcc121",
+        "width" : 64
+      } ],
+      "name" : "Hero",
+      "release_date" : "2020-06-27",
+      "release_date_precision" : "day",
+      "total_tracks" : 2,
+      "type" : "album",
+      "uri" : "spotify:album:4HVhvwempe1wM60V8vHugR"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/2yQLqQ3PH8bsVSeuoFeykL"
+      },
+      "href" : "https://api.spotify.com/v1/artists/2yQLqQ3PH8bsVSeuoFeykL",
+      "id" : "2yQLqQ3PH8bsVSeuoFeykL",
+      "name" : "K-Syran",
+      "type" : "artist",
+      "uri" : "spotify:artist:2yQLqQ3PH8bsVSeuoFeykL"
+    } ],
+    "disc_number" : 1,
+    "duration_ms" : 283333,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "QM6P42020726"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/3Me54lJH14alkHvYe8lw0p"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/3Me54lJH14alkHvYe8lw0p",
+    "id" : "3Me54lJH14alkHvYe8lw0p",
+    "is_local" : false,
+    "is_playable" : true,
+    "name" : "Hero - Club Edit",
+    "popularity" : 16,
+    "preview_url" : "https://p.scdn.co/mp3-preview/f71e68239c27a1316544015ca162cd2480565e23?cid=774b29d4f13844c495f206cafdad9c86",
+    "track_number" : 1,
+    "type" : "track",
+    "uri" : "spotify:track:3Me54lJH14alkHvYe8lw0p"
+  }, {
+    "album" : {
+      "album_type" : "single",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2yQLqQ3PH8bsVSeuoFeykL"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2yQLqQ3PH8bsVSeuoFeykL",
+        "id" : "2yQLqQ3PH8bsVSeuoFeykL",
+        "name" : "K-Syran",
+        "type" : "artist",
+        "uri" : "spotify:artist:2yQLqQ3PH8bsVSeuoFeykL"
+      } ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/6VTItWGiHEFNcI6b4A47sG"
+      },
+      "href" : "https://api.spotify.com/v1/albums/6VTItWGiHEFNcI6b4A47sG",
+      "id" : "6VTItWGiHEFNcI6b4A47sG",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b2739a962b7dd2c7bbcb4e8786cd",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e029a962b7dd2c7bbcb4e8786cd",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d000048519a962b7dd2c7bbcb4e8786cd",
+        "width" : 64
+      } ],
+      "name" : "Warrior",
+      "release_date" : "2020-03-08",
+      "release_date_precision" : "day",
+      "total_tracks" : 1,
+      "type" : "album",
+      "uri" : "spotify:album:6VTItWGiHEFNcI6b4A47sG"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/2yQLqQ3PH8bsVSeuoFeykL"
+      },
+      "href" : "https://api.spotify.com/v1/artists/2yQLqQ3PH8bsVSeuoFeykL",
+      "id" : "2yQLqQ3PH8bsVSeuoFeykL",
+      "name" : "K-Syran",
+      "type" : "artist",
+      "uri" : "spotify:artist:2yQLqQ3PH8bsVSeuoFeykL"
+    } ],
+    "disc_number" : 1,
+    "duration_ms" : 323149,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "QM6N21985355"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/7JYPK1HdWnUGMijUXQNo2i"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/7JYPK1HdWnUGMijUXQNo2i",
+    "id" : "7JYPK1HdWnUGMijUXQNo2i",
+    "is_local" : false,
+    "is_playable" : true,
+    "name" : "Warrior",
+    "popularity" : 14,
+    "preview_url" : "https://p.scdn.co/mp3-preview/4a663021ea261055a4a7fd3fc9ad649680e78488?cid=774b29d4f13844c495f206cafdad9c86",
+    "track_number" : 1,
+    "type" : "track",
+    "uri" : "spotify:track:7JYPK1HdWnUGMijUXQNo2i"
+  }, {
+    "album" : {
+      "album_type" : "single",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2yQLqQ3PH8bsVSeuoFeykL"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2yQLqQ3PH8bsVSeuoFeykL",
+        "id" : "2yQLqQ3PH8bsVSeuoFeykL",
+        "name" : "K-Syran",
+        "type" : "artist",
+        "uri" : "spotify:artist:2yQLqQ3PH8bsVSeuoFeykL"
+      } ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/3tlvH0bgxRgwk6sKhHWTY3"
+      },
+      "href" : "https://api.spotify.com/v1/albums/3tlvH0bgxRgwk6sKhHWTY3",
+      "id" : "3tlvH0bgxRgwk6sKhHWTY3",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b27372e9254b44286353af5096d4",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e0272e9254b44286353af5096d4",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d0000485172e9254b44286353af5096d4",
+        "width" : 64
+      } ],
+      "name" : "We Can't Go Back",
+      "release_date" : "2019-11-20",
+      "release_date_precision" : "day",
+      "total_tracks" : 1,
+      "type" : "album",
+      "uri" : "spotify:album:3tlvH0bgxRgwk6sKhHWTY3"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/2yQLqQ3PH8bsVSeuoFeykL"
+      },
+      "href" : "https://api.spotify.com/v1/artists/2yQLqQ3PH8bsVSeuoFeykL",
+      "id" : "2yQLqQ3PH8bsVSeuoFeykL",
+      "name" : "K-Syran",
+      "type" : "artist",
+      "uri" : "spotify:artist:2yQLqQ3PH8bsVSeuoFeykL"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/4O5ySeaTinDn6ng6FYdpZS"
+      },
+      "href" : "https://api.spotify.com/v1/artists/4O5ySeaTinDn6ng6FYdpZS",
+      "id" : "4O5ySeaTinDn6ng6FYdpZS",
+      "name" : "Benedicta",
+      "type" : "artist",
+      "uri" : "spotify:artist:4O5ySeaTinDn6ng6FYdpZS"
+    } ],
+    "disc_number" : 1,
+    "duration_ms" : 180000,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "QMFME1911505"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/4byICcyKNQ1mN5LIMTak6g"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/4byICcyKNQ1mN5LIMTak6g",
+    "id" : "4byICcyKNQ1mN5LIMTak6g",
+    "is_local" : false,
+    "is_playable" : true,
+    "name" : "We Can't Go Back",
+    "popularity" : 1,
+    "preview_url" : "https://p.scdn.co/mp3-preview/e88d243315c7955a60b913f31b0544f6031e9a1f?cid=774b29d4f13844c495f206cafdad9c86",
+    "track_number" : 1,
+    "type" : "track",
+    "uri" : "spotify:track:4byICcyKNQ1mN5LIMTak6g"
+  }, {
+    "album" : {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2yQLqQ3PH8bsVSeuoFeykL"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2yQLqQ3PH8bsVSeuoFeykL",
+        "id" : "2yQLqQ3PH8bsVSeuoFeykL",
+        "name" : "K-Syran",
+        "type" : "artist",
+        "uri" : "spotify:artist:2yQLqQ3PH8bsVSeuoFeykL"
+      } ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/6UEEU1rYL214kgM2yY2VeH"
+      },
+      "href" : "https://api.spotify.com/v1/albums/6UEEU1rYL214kgM2yY2VeH",
+      "id" : "6UEEU1rYL214kgM2yY2VeH",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b2731f9a83ec2ecc85e314aaddd1",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e021f9a83ec2ecc85e314aaddd1",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d000048511f9a83ec2ecc85e314aaddd1",
+        "width" : 64
+      } ],
+      "name" : "Shake That Booty",
+      "release_date" : "2018-08-31",
+      "release_date_precision" : "day",
+      "total_tracks" : 12,
+      "type" : "album",
+      "uri" : "spotify:album:6UEEU1rYL214kgM2yY2VeH"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/2yQLqQ3PH8bsVSeuoFeykL"
+      },
+      "href" : "https://api.spotify.com/v1/artists/2yQLqQ3PH8bsVSeuoFeykL",
+      "id" : "2yQLqQ3PH8bsVSeuoFeykL",
+      "name" : "K-Syran",
+      "type" : "artist",
+      "uri" : "spotify:artist:2yQLqQ3PH8bsVSeuoFeykL"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/2f2o2eQOHtHlXLXoXuX4vN"
+      },
+      "href" : "https://api.spotify.com/v1/artists/2f2o2eQOHtHlXLXoXuX4vN",
+      "id" : "2f2o2eQOHtHlXLXoXuX4vN",
+      "name" : "Electrik Disco",
+      "type" : "artist",
+      "uri" : "spotify:artist:2f2o2eQOHtHlXLXoXuX4vN"
+    } ],
+    "disc_number" : 1,
+    "duration_ms" : 376000,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "QM6MZ1882658"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/5H2Im6uAXnHde9K5ZBCUmH"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/5H2Im6uAXnHde9K5ZBCUmH",
+    "id" : "5H2Im6uAXnHde9K5ZBCUmH",
+    "is_local" : false,
+    "is_playable" : true,
+    "name" : "Shake That Booty (Electrik Disco Remix)",
+    "popularity" : 0,
+    "preview_url" : "https://p.scdn.co/mp3-preview/304cd61c1770b701cd13b1956085e21828c2dc51?cid=774b29d4f13844c495f206cafdad9c86",
+    "track_number" : 6,
+    "type" : "track",
+    "uri" : "spotify:track:5H2Im6uAXnHde9K5ZBCUmH"
+  }, {
+    "album" : {
+      "album_type" : "single",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2yQLqQ3PH8bsVSeuoFeykL"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2yQLqQ3PH8bsVSeuoFeykL",
+        "id" : "2yQLqQ3PH8bsVSeuoFeykL",
+        "name" : "K-Syran",
+        "type" : "artist",
+        "uri" : "spotify:artist:2yQLqQ3PH8bsVSeuoFeykL"
+      } ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/7kdfP2LSOw8sIYloU5IEZW"
+      },
+      "href" : "https://api.spotify.com/v1/albums/7kdfP2LSOw8sIYloU5IEZW",
+      "id" : "7kdfP2LSOw8sIYloU5IEZW",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b273490dd4e4fcc2cced64d078a3",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e02490dd4e4fcc2cced64d078a3",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d00004851490dd4e4fcc2cced64d078a3",
+        "width" : 64
+      } ],
+      "name" : "Crazy Desire",
+      "release_date" : "2019-06-07",
+      "release_date_precision" : "day",
+      "total_tracks" : 5,
+      "type" : "album",
+      "uri" : "spotify:album:7kdfP2LSOw8sIYloU5IEZW"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/2yQLqQ3PH8bsVSeuoFeykL"
+      },
+      "href" : "https://api.spotify.com/v1/artists/2yQLqQ3PH8bsVSeuoFeykL",
+      "id" : "2yQLqQ3PH8bsVSeuoFeykL",
+      "name" : "K-Syran",
+      "type" : "artist",
+      "uri" : "spotify:artist:2yQLqQ3PH8bsVSeuoFeykL"
+    } ],
+    "disc_number" : 1,
+    "duration_ms" : 211875,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "QM6N21912340"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/2n64GX2JpfDdCbAB5v9vUC"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/2n64GX2JpfDdCbAB5v9vUC",
+    "id" : "2n64GX2JpfDdCbAB5v9vUC",
+    "is_local" : false,
+    "is_playable" : true,
+    "name" : "Crazy Desire - Radio Edit",
+    "popularity" : 0,
+    "preview_url" : "https://p.scdn.co/mp3-preview/a3918fd3403511978179b2fbc4cc8c864422acea?cid=774b29d4f13844c495f206cafdad9c86",
+    "track_number" : 1,
+    "type" : "track",
+    "uri" : "spotify:track:2n64GX2JpfDdCbAB5v9vUC"
+  }, {
+    "album" : {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2yQLqQ3PH8bsVSeuoFeykL"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2yQLqQ3PH8bsVSeuoFeykL",
+        "id" : "2yQLqQ3PH8bsVSeuoFeykL",
+        "name" : "K-Syran",
+        "type" : "artist",
+        "uri" : "spotify:artist:2yQLqQ3PH8bsVSeuoFeykL"
+      } ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/4NCJy0EXdcl247pcxrZ7bz"
+      },
+      "href" : "https://api.spotify.com/v1/albums/4NCJy0EXdcl247pcxrZ7bz",
+      "id" : "4NCJy0EXdcl247pcxrZ7bz",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b2738965bfaf9a12cbc37ddf1be6",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e028965bfaf9a12cbc37ddf1be6",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d000048518965bfaf9a12cbc37ddf1be6",
+        "width" : 64
+      } ],
+      "name" : "Dizzy",
+      "release_date" : "2017-09-17",
+      "release_date_precision" : "day",
+      "total_tracks" : 10,
+      "type" : "album",
+      "uri" : "spotify:album:4NCJy0EXdcl247pcxrZ7bz"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/2yQLqQ3PH8bsVSeuoFeykL"
+      },
+      "href" : "https://api.spotify.com/v1/artists/2yQLqQ3PH8bsVSeuoFeykL",
+      "id" : "2yQLqQ3PH8bsVSeuoFeykL",
+      "name" : "K-Syran",
+      "type" : "artist",
+      "uri" : "spotify:artist:2yQLqQ3PH8bsVSeuoFeykL"
+    } ],
+    "disc_number" : 1,
+    "duration_ms" : 206881,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "TCADG1784205"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/4ChqFy7XkpbjXVxjgmfh08"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/4ChqFy7XkpbjXVxjgmfh08",
+    "id" : "4ChqFy7XkpbjXVxjgmfh08",
+    "is_local" : false,
+    "is_playable" : true,
+    "name" : "Dizzy",
+    "popularity" : 0,
+    "preview_url" : "https://p.scdn.co/mp3-preview/57d9f73741c9310678a63ebd9c5c91ab1bae2950?cid=774b29d4f13844c495f206cafdad9c86",
+    "track_number" : 1,
+    "type" : "track",
+    "uri" : "spotify:track:4ChqFy7XkpbjXVxjgmfh08"
+  }, {
+    "album" : {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2yQLqQ3PH8bsVSeuoFeykL"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2yQLqQ3PH8bsVSeuoFeykL",
+        "id" : "2yQLqQ3PH8bsVSeuoFeykL",
+        "name" : "K-Syran",
+        "type" : "artist",
+        "uri" : "spotify:artist:2yQLqQ3PH8bsVSeuoFeykL"
+      } ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/4NCJy0EXdcl247pcxrZ7bz"
+      },
+      "href" : "https://api.spotify.com/v1/albums/4NCJy0EXdcl247pcxrZ7bz",
+      "id" : "4NCJy0EXdcl247pcxrZ7bz",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b2738965bfaf9a12cbc37ddf1be6",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e028965bfaf9a12cbc37ddf1be6",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d000048518965bfaf9a12cbc37ddf1be6",
+        "width" : 64
+      } ],
+      "name" : "Dizzy",
+      "release_date" : "2017-09-17",
+      "release_date_precision" : "day",
+      "total_tracks" : 10,
+      "type" : "album",
+      "uri" : "spotify:album:4NCJy0EXdcl247pcxrZ7bz"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/2yQLqQ3PH8bsVSeuoFeykL"
+      },
+      "href" : "https://api.spotify.com/v1/artists/2yQLqQ3PH8bsVSeuoFeykL",
+      "id" : "2yQLqQ3PH8bsVSeuoFeykL",
+      "name" : "K-Syran",
+      "type" : "artist",
+      "uri" : "spotify:artist:2yQLqQ3PH8bsVSeuoFeykL"
+    } ],
+    "disc_number" : 1,
+    "duration_ms" : 186148,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "TCADG1784242"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/4J1FjLubHsW1rbsyUvvTVM"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/4J1FjLubHsW1rbsyUvvTVM",
+    "id" : "4J1FjLubHsW1rbsyUvvTVM",
+    "is_local" : false,
+    "is_playable" : true,
+    "name" : "Peace Song",
+    "popularity" : 0,
+    "preview_url" : "https://p.scdn.co/mp3-preview/1e6779ab8f82e61b45cc75694da4dfd340da8582?cid=774b29d4f13844c495f206cafdad9c86",
+    "track_number" : 10,
+    "type" : "track",
+    "uri" : "spotify:track:4J1FjLubHsW1rbsyUvvTVM"
+  }, {
+    "album" : {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2yQLqQ3PH8bsVSeuoFeykL"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2yQLqQ3PH8bsVSeuoFeykL",
+        "id" : "2yQLqQ3PH8bsVSeuoFeykL",
+        "name" : "K-Syran",
+        "type" : "artist",
+        "uri" : "spotify:artist:2yQLqQ3PH8bsVSeuoFeykL"
+      } ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/6ejV3RKupfNJL40Zjwp1hZ"
+      },
+      "href" : "https://api.spotify.com/v1/albums/6ejV3RKupfNJL40Zjwp1hZ",
+      "id" : "6ejV3RKupfNJL40Zjwp1hZ",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b273f8312979eba7c765ba9334e7",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e02f8312979eba7c765ba9334e7",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d00004851f8312979eba7c765ba9334e7",
+        "width" : 64
+      } ],
+      "name" : "Journey",
+      "release_date" : "2018-12-16",
+      "release_date_precision" : "day",
+      "total_tracks" : 16,
+      "type" : "album",
+      "uri" : "spotify:album:6ejV3RKupfNJL40Zjwp1hZ"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/2yQLqQ3PH8bsVSeuoFeykL"
+      },
+      "href" : "https://api.spotify.com/v1/artists/2yQLqQ3PH8bsVSeuoFeykL",
+      "id" : "2yQLqQ3PH8bsVSeuoFeykL",
+      "name" : "K-Syran",
+      "type" : "artist",
+      "uri" : "spotify:artist:2yQLqQ3PH8bsVSeuoFeykL"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/5K0LtWQV37Mfib2VsSg07R"
+      },
+      "href" : "https://api.spotify.com/v1/artists/5K0LtWQV37Mfib2VsSg07R",
+      "id" : "5K0LtWQV37Mfib2VsSg07R",
+      "name" : "Amelle Berrabah",
+      "type" : "artist",
+      "uri" : "spotify:artist:5K0LtWQV37Mfib2VsSg07R"
+    } ],
+    "disc_number" : 1,
+    "duration_ms" : 192380,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "QM6P41855850"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/1UZjRIJUZBIMTs2f1uMl1L"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/1UZjRIJUZBIMTs2f1uMl1L",
+    "id" : "1UZjRIJUZBIMTs2f1uMl1L",
+    "is_local" : false,
+    "is_playable" : true,
+    "name" : "Testify",
+    "popularity" : 0,
+    "preview_url" : "https://p.scdn.co/mp3-preview/07911ccebe0d6ad22fcee3e14724f2d22c6deb61?cid=774b29d4f13844c495f206cafdad9c86",
+    "track_number" : 16,
+    "type" : "track",
+    "uri" : "spotify:track:1UZjRIJUZBIMTs2f1uMl1L"
+  } ]
+}
