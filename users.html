@@ -327,47 +327,15 @@
       </footer>
       <!-- Footer -->
     </div>
+ 
 
+<!-- INSERT Handlebars Template scripts-->
 
-<!-- Handlebars Template scripts-->
-
-	<script id="userCardTemplate" type="text/x-handlebars-template">
-	{{#each users }}
-
-        <div class=" card-padding {{{class}}}" style="width: 20rem;">
-        <div class="card ">
-          <!-- Card image -->  
-  <div class="view overlay">   
-    <img class="card-img-top"
-      src="{{{image}}}" alt="Card image cap">
-    <a> 
-      <div class="mask rgba-white-slight"></div>
-    </a>
-  </div> 
-          <!-- Card content -->
-		<div class="card-body"> 
-			<!-- Title -->    
-	 		<h4 class="card-title"> {{name}}</h4>
-			<!-- Text -->  
-			<h5 class="card-text"><b>{{type}}</b> </h5><span><b>Genre</b> {{Genre}}</span>
-            <p> <b>Location</b> {{location}}</p>
-            <p> <b>Country</b> {{Country}}</p>
-            <p class="card-text"> 
-				<em>{{tags}}</em> </p> 
-                <em>{{bio}}</em> </p> 
-			<a href="{{{profileUrl}}}" class="btn btn-dark rounded">
-				Profile
-			</a>
-			
-		</div> 
-		</div> 
-		</div> 
-		{{/each }}
-		</script>
-	<!-- Card for layout handlebars template END -->
+	
+	<!--template END -->
 
   
-
+ 
     <!-- JQuery -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.js"
@@ -396,7 +364,10 @@
       crossorigin="anonymous"
     ></script>
 
+
     <!-- Hydra Users  - Main handlebars script for processing user data from JSON-->
-    <script type="text/javascript" src="assets/scripts/users.js"></script>
+     <script type="text/javascript" src="assets/scripts/main.js"></script>
+   
+   
   </body>
 </html>

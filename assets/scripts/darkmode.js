@@ -7,7 +7,7 @@
 // let darkmode = localStorage.getItem('darkMode');
 // const darkModeToggle = document.querySelector('#darkmodetoggle');
 
-
+ 
 // //check if dark mode is enabled, if disabled turn on.
 
 // const enableDarkMode = () =>{
