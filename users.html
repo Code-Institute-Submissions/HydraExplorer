@@ -44,7 +44,7 @@
       }
 
       .block-white {
-        background-color: #fff; 
+        background-color: #fff;
       }
 
       /* hero artists */
@@ -77,7 +77,7 @@
     </style>
   </head>
 
-  <body>
+  <body class="user-details">
     <!-- add a class change from handlebars to change background for artist -->
     <div class="bg">
       <!-- add a class change from handlebars to change hero section on artist -->
@@ -126,6 +126,10 @@
       </header>
 
       <!-- container standard-->
+
+<div id="user-profile" class="div"></div>
+
+
 
       <div class="container my-5 py-5 z-depth-1 block-white">
         <div class="row">
@@ -300,14 +304,14 @@
                   rows="3"
                 ></textarea>
                 <label for="form-message">How do you w?</label>
-              </div>
+              </div> 
 
               <button type="submit" class="btn btn-dark btn-sm ml-0">
                 Submit<i class="far fa-paper-plane ml-2"></i>
               </button>
             </div>
             <!--Grid column-->
-          </div>
+          </div>  
           <!--Grid row-->
         </section>
         <!--Section: Content-->
@@ -324,10 +328,45 @@
       <!-- Footer -->
     </div>
 
+
+<!-- Handlebars Template scripts-->
+
+	<script id="userCardTemplate" type="text/x-handlebars-template">
+	{{#each users }}
+
+        <div class=" card-padding {{{class}}}" style="width: 20rem;">
+        <div class="card ">
+          <!-- Card image -->  
+  <div class="view overlay">   
+    <img class="card-img-top"
+      src="{{{image}}}" alt="Card image cap">
+    <a> 
+      <div class="mask rgba-white-slight"></div>
+    </a>
+  </div> 
+          <!-- Card content -->
+		<div class="card-body"> 
+			<!-- Title -->    
+	 		<h4 class="card-title"> {{name}}</h4>
+			<!-- Text -->  
+			<h5 class="card-text"><b>{{type}}</b> </h5><span><b>Genre</b> {{Genre}}</span>
+            <p> <b>Location</b> {{location}}</p>
+            <p> <b>Country</b> {{Country}}</p>
+            <p class="card-text"> 
+				<em>{{tags}}</em> </p> 
+                <em>{{bio}}</em> </p> 
+			<a href="{{{profileUrl}}}" class="btn btn-dark rounded">
+				Profile
+			</a>
+			
+		</div> 
+		</div> 
+		</div> 
+		{{/each }}
+		</script>
+	<!-- Card for layout handlebars template END -->
+
   
-
-
-
 
     <!-- JQuery -->
     <script
@@ -348,6 +387,8 @@
       crossorigin="anonymous"
     ></script>
 
+<!-- Templating -->
+
     <!-- Handlebars.js -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.js"
@@ -359,4 +400,3 @@
     <script type="text/javascript" src="assets/scripts/users.js"></script>
   </body>
 </html>
- 

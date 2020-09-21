@@ -1,6 +1,7 @@
 {
   "users": [
     {
+      "id": 0,
       "name": "Dan Thomas",
       "type": "Remixer",
       "class": "remixers",
@@ -13,11 +14,10 @@
       "bio": "insert Biography here!",
       "coords": { "lat": 54.9247, "lng": -1.7427 },
       "iconImage": ""
-
-
     },
-    
+
     {
+      "id": 1,
       "name": "Hydrasound",
       "type": "Consultancy",
       "class": "consultancy",
@@ -30,10 +30,10 @@
       "bio": "insert Biography here!",
       "coords": { "lat": 25.8011101, "lng": -80.130116 },
       "iconImage": ""
-    
     },
 
     {
+      "id": 2,
       "name": "K-Syran",
       "type": "Singer",
       "class": "singers",
@@ -46,10 +46,10 @@
       "bio": "K-Syran is a singer, songwriter, female rights activist and famed actress from the RADA & Guildhall school of music and drama. Being cast in a multitude of leading roles straight out of drama school such as Anna in Voyage in the Dark by Jean Rhys which went on to gain critical acclaim by many of her peers. Not only that but her self written produced and directed project ‘Breaking the Silence’ won the attention of Angelina Jolie and William Hauge, subsequently winning at the prestigious Global Summit To End Sexual Violence In Confict. Following on from her many successes as an actress K-Syran is also a trained singer and songwriter allowing her to release her frst single with Metropolis studios, tour with UK chart sensations Blue and work alongside Sugarbabes sex bomb Amelle Barrabah. As if that wasn’t enough K-Syran was nominated by UN in the UK for her single, Intimacy, to be the anthem of international Women’s Day. Never a one for slowing down she got in the studio with grammy award winning producer Philip Larsen, who is known worldwide for his work with Katy Perry to produce her album Dizzy, Dizzy was subsequently nominated for a number of honoured awards in the US, charted on the official Billboard chart and performed live in NYC at the Grammy weekend. Her summer hit Shake That Booty was remixed by Swedish superstar Stonebridge, also charted Billboard and received nominations and airplay extensively in the US.",
       "coords": { "lat": 51.513099, "lng": -0.1340533 },
       "iconImage": ""
-
     },
 
     {
+      "id": 3,
       "name": "VASSY",
       "type": "Singer",
       "class": "singers",
@@ -60,12 +60,12 @@
       "image": "https://danielboots.github.io/HydraExplorer/assets/img/profileimg/vassy.jpg",
       "profileUrl": "https://hydrasound.com",
       "bio": "insert Biography here!",
-      "coords": { "lat": 40.7128, "lng": -74.0060 },
+      "coords": { "lat": 40.7128, "lng": -74.006 },
       "iconImage": ""
-     
     },
 
     {
+      "id": 4,
       "name": "Joseph Viteritto",
       "type": "Producer",
       "class": "producers",
@@ -78,10 +78,10 @@
       "bio": "insert Biography here!",
       "coords": { "lat": 41.603222, "lng": -73.087746 },
       "iconImage": ""
-      
     },
 
     {
+      "id": 5,
       "name": "Eddie Gordon",
       "type": "Consultancy",
       "class": "consultancy",
@@ -94,7 +94,6 @@
       "bio": "insert Biography here!",
       "coords": { "lat": 34.0937458, "lng": -118.3614973 },
       "iconImage": ""
-
     }
   ]
 }
