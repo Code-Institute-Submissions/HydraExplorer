@@ -28,7 +28,7 @@ h1 {
 
 /* End of default styles */
 
-/* bg image for artist page */
+/* bg image for artist page - use jquery to add / remove class in order to change the bg images? */
 
 .bg {
   /* The image used */
