@@ -1,4 +1,16 @@
- 
+// tutorial video from https://youtu.be/qoN6-rWIYrk?list=PLtV5RF44Yj8S4RcpQehL-2XMuVsJXwNvK to drill in to data, selecting a user gives page id to display data from the JSON index we need
+
+function getParameterByName(name, url) {
+    if (!url) url=window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    let regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)");
+        results = regex.exec(url);
+        if(!results) return null;
+        if(!results) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, " "));
+} 
+
+
 //Code from Handlebars.js tutorial for ref: https://www.youtube.com/watch?v=wSNa5b1mS5Y
 
 /*hardcoded JSON Data ... written by myself, i will use this as a replacement to user input data as  i dont know how to use databases yet, and will increase
@@ -40,4 +52,7 @@ function createHTML(hydraUserData) {
   userContainer.innerHTML = ourGeneratedHTML;
 
 } 
+
+let userId = getParameterByName('id');
+console.log("user identification: ", userId);
 
