@@ -11,6 +11,7 @@ function getParameterByName(name, url) {
 } 
 
 
+
 //Code from Handlebars.js tutorial for ref: https://www.youtube.com/watch?v=wSNa5b1mS5Y
 
 /*hardcoded JSON Data ... written by myself, i will use this as a replacement to user input data as  i dont know how to use databases yet, and will increase
@@ -54,5 +55,14 @@ function createHTML(hydraUserData) {
 } 
 
 let userId = getParameterByName('id');
-console.log("user identification: ", userId);
+console.log("you did it you SOB ! we now know the correct user identification, which is : ", userId);
 
+
+
+
+if ($('body').hasClass('user-details')) {
+
+        console.log('this has the class user-details and is the users.html page!');
+} else {
+    console.log('this does not have the class user-details and is the index.html page!');
+}
