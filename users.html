@@ -127,7 +127,7 @@
 
       <!-- container standard-->
 
-<div id="user-profile" class="div"></div>
+<div id="user-card-container" class="div"></div>
 
 
 
@@ -327,9 +327,47 @@
       </footer>
       <!-- Footer -->
     </div>
- 
 
-<!-- INSERT Handlebars Template scripts-->
+
+<!-- Handlebars Template scripts-->
+
+	<script id="userCardTemplate" type="text/x-handlebars-template">
+		<!-- Card  -->
+      {{#each users}}
+        <!-- Card -->
+
+        <div class=" card-padding {{{class}}}" style="width: 20rem;">
+        <div class="card ">
+          <!-- Card image -->  
+  <div class="view overlay">   
+    <img class="card-img-top"
+      src="{{{image}}}" alt="Card image cap">
+    <a> 
+      <div class="mask rgba-white-slight"></div>
+    </a>
+  </div>  
+          <!-- Card content -->
+		<div class="card-body"> 
+			<!-- Title -->    
+	 		<h4 class="card-title"> {{name}}</h4>
+			<!-- Text -->  
+			<h5 class="card-text"><b>{{type}}</b> </h5><span><b>Genre</b> {{Genre}}</span>
+            <p> <b>Location</b> {{location}}</p>
+            <p> <b>Country</b> {{Country}}</p>
+            <p class="card-text"> 
+				<em>{{tags}}</em> </p> 
+                <em>{{bio}}</em> Bio</p> 
+			<a href="users.html?id={{{id}}}" class="btn btn-dark rounded">
+				Profile
+			</a>
+			 
+		</div> 
+		</div> 
+		</div> 
+		{{/each}} 
+		</script>
+	<!-- Card for layout handlebars template END -->
+
 
 	
 	<!--template END -->
