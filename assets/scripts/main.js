@@ -27,7 +27,7 @@ ourRequest.open("GET", "https://danielboots.github.io/HydraExplorer/assets/data/
 ourRequest.onload = function () {
   if (ourRequest.status >= 200 && ourRequest.status < 400) {
     let data = JSON.parse(ourRequest.responseText);
-    console.log("A OK El Capitan coming from main.js !");
+    console.log("success from server loading users.json (message from main.js script!) ");
 
   console.log(data);
   console.log("User identification for selected is : ", userId);
@@ -53,11 +53,11 @@ function createHTML(hydraUserData) {
 
   if ($('body').hasClass('user-details')) {
 
-        console.log('this has the class user-details and is the users.html page!');
-        console.log(hydraUserData.users[userId]);
+        console.log('does the page have the class, user-details ? query returns true thus this is the users.html page!');
+        console.log('selected user from index.html', hydraUserData.users[userId]);
 
 } else {
-    console.log('this does not have the class user-details and is the index.html page!');
+    console.log('does the page have the class, user-details ? query returns false thus is the index.html page!');
 }
 
 
