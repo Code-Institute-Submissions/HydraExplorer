@@ -24,12 +24,12 @@ functionality to the members profile by using external API from Spotify to creat
 let ourRequest = new XMLHttpRequest();
 
 ourRequest.open("GET", "https://danielboots.github.io/HydraExplorer/assets/data/users.json");
-ourRequest.onload = function () {
+ourRequest.onload = function (hydraUserData) {
   if (ourRequest.status >= 200 && ourRequest.status < 400) {
     let data = JSON.parse(ourRequest.responseText);
     console.log("success from server loading users.json (message from main.js script!) ");
 
-  console.log(data);
+  console.log('data recieved from json', data);
   console.log("User identification for selected is : ", userId);
     createHTML(data);
     
@@ -44,7 +44,7 @@ ourRequest.onerror = function () {
 ourRequest.send();
 
 
-// Handlebars.js - template function
+/* Handlebars.js - template function, my thoughts.. If has class run this, if not run original function, hydraUserData.users[userId]); */
 
 function createHTML(hydraUserData) {
   let rawTemplate = document.getElementById("userCardTemplate").innerHTML;
@@ -54,21 +54,17 @@ function createHTML(hydraUserData) {
   if ($('body').hasClass('user-details')) {
 
         console.log('does the page have the class, user-details ? query returns true thus this is the users.html page!');
-        console.log('selected user from index.html', hydraUserData.users[userId]);
+        console.log('selected user from index.html', hydraUserData.users[userId].name);
+        console.log('selected user from index.html', hydraUserData.users[userId].type);
+        console.log('selected user from index.html', hydraUserData.users[userId].location);
 
 } else {
     console.log('does the page have the class, user-details ? query returns false thus is the index.html page!');
 }
 
 
-
-
   let userContainer = document.getElementById("user-card-container");
   userContainer.innerHTML = ourGeneratedHTML;
 
 } 
-
-
-
-
 
