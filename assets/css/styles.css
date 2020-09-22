@@ -369,6 +369,12 @@ background-color: #fafafa;
 
 }
 
+.img-profile {
+    max-height: 250px;
+    max-width: 250x;
+    object-fit: cover;
+}
+
 
 .card-img-top {
     width: 100%;
@@ -383,6 +389,8 @@ background-color: #fafafa;
     width: 100px;
     object-fit: cover;
 }
+
+
 
 /* Dark Mode */
 

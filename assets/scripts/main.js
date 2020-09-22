@@ -51,6 +51,18 @@ function createHTML(hydraUserData) {
   let compiledTemplate = Handlebars.compile(rawTemplate);
   let ourGeneratedHTML = compiledTemplate(hydraUserData);
 
+  if ($('body').hasClass('user-details')) {
+
+        console.log('this has the class user-details and is the users.html page!');
+        console.log(hydraUserData.users[userId]);
+
+} else {
+    console.log('this does not have the class user-details and is the index.html page!');
+}
+
+
+
+
   let userContainer = document.getElementById("user-card-container");
   userContainer.innerHTML = ourGeneratedHTML;
 
@@ -58,11 +70,5 @@ function createHTML(hydraUserData) {
 
 
 
-if ($('body').hasClass('user-details')) {
 
-        console.log('this has the class user-details and is the users.html page!');
-
-} else {
-    console.log('this does not have the class user-details and is the index.html page!');
-}
 

@@ -1,36 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
- 
-<head>  
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="icon" href="images/favicon.ico" />
-	<title>Hydra Explorer</title>
-	<meta name="description" content="Hire Music production engineers, Mixing, Mastering services. Ghost Production" />
- 
-	<!-- Material Design Bootstrap - Moved to top in order to override with custom css.  (MDBootstrap.com-->
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet" />
-	<!--Style Sheets Bootstrap css etc-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/favicon.ico" />
+    <title>Hydra Explorer</title>
+    <meta
+      name="description"
+      content="Hire Music production engineers, Mixing, Mastering services. Ghost Production"
+    />
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
-	<link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- Material Design Bootstrap - Moved to top in order to override with custom css.  (MDBootstrap.com-->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css"
+      rel="stylesheet"
+    />
+    <!--Style Sheets Bootstrap css etc-->
 
-	
-</head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
 
-<body class="user-details">
-	<!-- add a class change from handlebars to change background for artist -->
-	<div class="bg">
-		<!-- add a class change from handlebars to change hero section on artist -->
-		<header id="hero" class="hero-artist">
-			<!--Navbar-->
-			<nav class="navbar navbar-expand-lg navbar-dark">
-				<!-- Navbar brand -->
-				<a class="navbar-brand" href="#">Hydra Explorer</a>
+  <body class="user-details">
+    <!-- add a class change from handlebars to change background for artist -->
+    <div class="bg">
+      <!-- add a class change from handlebars to change hero section on artist -->
+      <header id="hero" class="hero-artist">
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <!-- Navbar brand -->
+          <a class="navbar-brand" href="#">Hydra Explorer</a>
 
-				<!-- Collapse button -->
-				<button
+          <!-- Collapse button -->
+          <button
             class="navbar-toggler"
             type="button"
             data-toggle="collapse"
@@ -42,53 +51,53 @@
             <span class="navbar-toggler-icon"></span>
           </button>
 
-				<!-- Collapsible content -->
-				<div class="collapse navbar-collapse" id="basicExampleNav">
-					<!-- Nav Links -->
-					<ul class="navbar-nav mr-auto">
-						<li class="nav-item active">
-							<a class="nav-link" href="#">Home
-								<span class="sr-only">(current)</span>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
-			<!-- End /.Navbar-->
+          <!-- Collapsible content -->
+          <div class="collapse navbar-collapse" id="basicExampleNav">
+            <!-- Nav Links -->
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  >Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- End /.Navbar-->
 
-			<div class="container-fluid">
-				<!--Hero Section -->
+        <div class="container-fluid">
+          <!--Hero Section -->
 
-				<div class="hero-text text-left cinzel-font">
-					<h1 class="text-focus-in">{{name}}</h1>
-					<h5 class="focus-in-contract-bck">{{Tag line}}</h5>
-				</div>
-			</div>
-		</header>
+          <div class="hero-text text-left cinzel-font">
+            <h1 class="text-focus-in">{{name}}</h1>
+            <h5 class="focus-in-contract-bck">{{Tag line}}</h5>
+          </div>
+        </div>
+      </header>
 
-		<!-- container standard-->
+      <!-- container standard-->
 
-		<div id="user-card-container" class="div"></div>
+      <div id="user-card-container" class="div"></div>
 
+      <!-- Handlebars Template scripts-->
 
-
-		<!-- Handlebars Template scripts-->
-
-
-
-		<script id="userCardTemplate" type="text/x-handlebars-template">
-			{{#each users}}  
+      <script id="userCardTemplate" type="text/x-handlebars-template">
+        <!-- {{#each users}}   -->
 
 
       <div class="container my-5 py-5 z-depth-1 block-white">
         <div class="row">
-          <div class="col text-center ">
+          <div class="col text-center "> 
           <h1>Template</h1>
           <p> Name:{{name}}</p>
 	      <p> Type:{{type}}</p>
 	        <p> Genre{{Genre}}</p>
 	        <p> Location {{location}}</p>
-	
+            <div class="div">
+            <img class="img-profile"
+      src="{{{image}}}" alt="profile image">
+	</div>
 	        <p> Tags {{tags}}</p>
 	      	<p> Bio {{bio}}</p>
 	        <a href="index.html" class="btn btn-dark rounded"> back</a>
@@ -107,35 +116,44 @@
       </footer>
       <!-- Footer -->
 
-{{/each}}  
-	    </script>
-		<!-- Card for layout handlebars template END -->
+<!-- {{/each}}   -->
+      </script>
+      <!-- Card for layout handlebars template END -->
 
-		<!--template END -->
+      <!--template END -->
 
-		<!-- JQuery -->
-		<script src="https://code.jquery.com/jquery-3.5.1.js"
-			integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-		<!-- Popper -->
-		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-		</script>
-		<!-- Bootstrap -->
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-			integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-		</script>
+      
 
-		<!-- Templating -->
+      <!-- JQuery -->
+      <script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"
+      ></script>
+      <!-- Popper -->
+      <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"
+      ></script>
+      <!-- Bootstrap -->
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"
+      ></script>
 
-		<!-- Handlebars.js -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.js"
-			integrity="sha512-MQkEjxbZvzs4TX8ES4/tTIyaYdtDlJzVocnPo0GoysTR0jCmNg0P2is7uqpCoWxmoS9X84CDVzuWgZD/R/Q2oQ=="
-			crossorigin="anonymous"></script>
+      <!-- Templating -->
 
-		<!-- Hydra Users  - Main handlebars script for processing user data from JSON-->
-		<script type="text/javascript" src="assets/scripts/main.js"></script>
-	</div>
-    
-</body>
+      <!-- Handlebars.js -->
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.js"
+        integrity="sha512-MQkEjxbZvzs4TX8ES4/tTIyaYdtDlJzVocnPo0GoysTR0jCmNg0P2is7uqpCoWxmoS9X84CDVzuWgZD/R/Q2oQ=="
+        crossorigin="anonymous"
+      ></script>
 
+      <!-- Hydra Users  - Main handlebars script for processing user data from JSON-->
+      <script type="text/javascript" src="assets/scripts/main.js"></script>
+    </div>
+  </body>
 </html>
