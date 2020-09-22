@@ -10,7 +10,7 @@ function getParameterByName(name, url) {
         return decodeURIComponent(results[2].replace(/\+/g, " "));
 } 
 
-
+let userId = getParameterByName('id');
 
 //Code from Handlebars.js tutorial for ref: https://www.youtube.com/watch?v=wSNa5b1mS5Y
 
@@ -18,6 +18,7 @@ function getParameterByName(name, url) {
 functionality to the members profile by using external API from Spotify to create a dynamic user profile page this can be found in scripts, users.JSON file */
 
   
+
 
 
 let ourRequest = new XMLHttpRequest();
@@ -28,7 +29,8 @@ ourRequest.onload = function () {
     let data = JSON.parse(ourRequest.responseText);
     console.log("A OK El Capitan coming from main.js !");
 
-  console.log(data)
+  console.log(data);
+  console.log("User identification for selected is : ", userId);
     createHTML(data);
     
   } else {  
@@ -54,15 +56,13 @@ function createHTML(hydraUserData) {
 
 } 
 
-let userId = getParameterByName('id');
-console.log("you did it you SOB ! we now know the correct user identification, which is : ", userId);
-
-
 
 
 if ($('body').hasClass('user-details')) {
 
         console.log('this has the class user-details and is the users.html page!');
+
 } else {
     console.log('this does not have the class user-details and is the index.html page!');
 }
+
