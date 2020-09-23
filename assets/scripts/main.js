@@ -78,6 +78,12 @@ function createHTML(hydraUserData) {
         let hydraDataBio = $('#hydra-data-bio');
         hydraDataBio.empty().append(hydraUserData.users[userId].bio);
 
+        let hydraDataSpotifyEmbed = $('#hydra-data-spotify-embed');
+        hydraDataSpotifyEmbed.empty().attr('src', hydraUserData.users[userId].spotifyembed);
+       
+
+        
+
        
 
 } else {

@@ -15,11 +15,12 @@
       "bio": "insert Biography here!",
       "coords": { "lat": 54.9247, "lng": -1.7427 },
       "iconImage": "",
-      "spotifyembed": "https://open.spotify.com/embed/artist/2yQLqQ3PH8bsVSeuoFeykL"
+      "spotifyembed": "https://open.spotify.com/embed/album/3C2cO3wo4f2bLzOpFypgmZ"
     },
 
     {
       "id": 1,
+      "font": "",
       "name": "Hydrasound",
       "tagline": "World Class artist consultancy",
       "type": "Consultancy",
@@ -33,12 +34,13 @@
       "bio": "insert Biography here!",
       "coords": { "lat": 25.8011101, "lng": -80.130116 },
       "iconImage": "",
-      "spotifyembed": "https://open.spotify.com/embed/artist/2yQLqQ3PH8bsVSeuoFeykL"
+      "spotifyembed": "https://open.spotify.com/embed/playlist/3iKrrEXxVBayFyJuinII2u"
     },
 
     {
       "id": 2,
       "name": "K-Syran",
+      "font": "cinzel-font",
       "tagline": "Share it Sing it Shout it",
       "type": "Singer",
       "class": "singers",
@@ -58,6 +60,7 @@
     {
       "id": 3,
       "name": "VASSY",
+      "font": "",
       "tagline": "Award winning Billboard artist",
       "type": "Singer",
       "class": "singers",
@@ -70,12 +73,13 @@
       "bio": "insert Biography here!",
       "coords": { "lat": 40.7128, "lng": -74.006 },
       "iconImage": "",
-      "spotifyembed": "https://open.spotify.com/embed/artist/2yQLqQ3PH8bsVSeuoFeykL"
+      "spotifyembed": "https://open.spotify.com/embed/artist/7HqEmV7FeCi16bQyHMpIrF"
     },
 
     {
       "id": 4,
       "name": "Joseph Viteritto",
+      "font": "",
       "tagline": "Multiple award winning pop producer",
       "type": "Producer",
       "class": "producers",
@@ -88,12 +92,13 @@
       "bio": "insert Biography here!",
       "coords": { "lat": 41.603222, "lng": -73.087746 },
       "iconImage": "",
-      "spotifyembed": "https://open.spotify.com/embed/artist/2yQLqQ3PH8bsVSeuoFeykL"
+      "spotifyembed": "https://open.spotify.com/embed/artist/3OcgJN5mGlGgiRYu6Al3eR"
     },
 
     {
       "id": 5,
       "name": "Eddie Gordon",
+      "font": "",
       "tagline": "Kings of Spins, media guru",
       "type": "Consultancy",
       "class": "consultancy",
@@ -106,7 +111,7 @@
       "bio": "insert Biography here!",
       "coords": { "lat": 34.0937458, "lng": -118.3614973 },
       "iconImage": "",
-      "spotifyembed": "https://open.spotify.com/embed/artist/2yQLqQ3PH8bsVSeuoFeykL"
+      "spotifyembed": "https://open.spotify.com/embed/artist/6J7biCazzYhU3gM9j1wfid"
     }
   ]
 }
