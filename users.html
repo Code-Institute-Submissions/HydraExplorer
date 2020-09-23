@@ -29,9 +29,10 @@
 
     <style>
       /* although not best practice i am aware i believe that this is appropriate for accessing background images to change dynamically for each page this is the 'template DOM' so i think i can use this effectively here, two things i want to do for custom styling- ammend the hero image and background from the JSON data, this is possible by using internal css  */
+
       .bg {
-        /* The image used */
-        /* background-image: url("{{image}}"); */
+        
+
 
         /* Full height */
         height: 100%;
@@ -49,11 +50,10 @@
 
       /* hero artists */
 
-      /* header - hero section - again using internal css to retrieve the images from JSON to populate */
+      /* header - hero section - again using internal css to retrieve the images from JSON to populate using Jquery css method? does this code need to be here then? */
 
       .hero-artist {
         background: url("assets/img/profileimg/ksyranbackground.png");
-        /* background: url("{{image}}"); */
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -74,14 +74,16 @@
         /* change RGBA to HEX Alpha Mentor Suggestion */
         background: #24252bcf;
       }
+
     </style>
   </head>
 
   <body class="user-details">
     <!-- add a class change from handlebars to change background for artist -->
     <div class="bg">
-      <!-- add a class change from handlebars to change hero section on artist -->
-      <header id="hero" class="hero-artist">
+      <!-- add a class change from handlebars to change hero section on artist how do i change this? -->
+      
+      <header id="hydra-data-hero" class="hero-artist">
         <!--Navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark">
           <!-- Navbar brand -->
@@ -129,10 +131,12 @@
 
       <div id="user-card-container" class="div"></div>
 
+
       <div class="container my-5 py-5 z-depth-1 block-white">
         <div class="row">
           <div class="col text-center cinzel-font">{{SpotifyTop}}</div>
         </div>
+        
       </div>
       <!-- container standard-->
 
@@ -146,13 +150,12 @@
             <!--Grid column-->
             <div class="col">
               <!--Handlebars.js name JSON-->
-              <h3 class="font-weight-bold cinzel-font">About {{name}}</h3>
+              <h3 class="font-weight-bold cinzel-font">About</h3>
 
               <!--Handlebars.js Bio JSON-->
-              <p class="text-muted">
-                !pull in from JSON:! <br />
-                {{bio}} Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Corporis, cupiditate.
+              <p class="text-muted" id="hydra-data-bio">
+                <br />
+                
               </p>
               <div class="">
                 <!--Handlebars.js autograph JSON-->

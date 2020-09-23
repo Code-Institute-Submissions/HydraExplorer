@@ -58,11 +58,27 @@ function createHTML(hydraUserData) {
         // console.log('selected user from index.html', hydraUserData.users[userId].name);
         // console.log('selected user from index.html', hydraUserData.users[userId].type);
         // console.log('selected user from index.html', hydraUserData.users[userId].location);
+
+        console.log(hydraUserData.users[userId].image);
+
+
+// check code with tutor to change css property !
+        let hydraDataHero = $('hydraUserData.users[userId].image');
+        $("hydra-data-hero").css("background-image", "url(" + hydraDataHero + ")");
+    //    check code with tutor to change css property !
+
+
+
         let hydraDataName = $('#hydra-data-name');
         hydraDataName.empty().append(hydraUserData.users[userId].name);
 
         let hydraDataTag = $('#hydra-data-tag');
-        hydraDataTag.empty().append(hydraUserData.users[userId].tag);
+        hydraDataTag.empty().append(hydraUserData.users[userId].tagline);
+
+        let hydraDataBio = $('#hydra-data-bio');
+        hydraDataBio.empty().append(hydraUserData.users[userId].bio);
+
+       
 
 } else {
     console.log('does the page have the class, user-details ? query returns false thus is the index.html page!');
