@@ -3,6 +3,7 @@
     {
       "id": 0,
       "name": "Dan Thomas",
+      "tagline": "Billboard Number one Remixer and Producer",
       "type": "Remixer",
       "class": "remixers",
       "Genre": "EDM",
@@ -19,6 +20,7 @@
     {
       "id": 1,
       "name": "Hydrasound",
+      "tagline": "World Class artist consultancy",
       "type": "Consultancy",
       "class": "consultancy",
       "Genre": "EDM",
@@ -35,6 +37,7 @@
     {
       "id": 2,
       "name": "K-Syran",
+      "tagline": "Share it Sing it Shout it",
       "type": "Singer",
       "class": "singers",
       "Genre": "EDM",
@@ -51,6 +54,7 @@
     {
       "id": 3,
       "name": "VASSY",
+      "tagline": "Award winning Billboard artist",
       "type": "Singer",
       "class": "singers",
       "Genre": "EDM",
@@ -67,6 +71,7 @@
     {
       "id": 4,
       "name": "Joseph Viteritto",
+      "tagline": "Multiple award winning pop producer",
       "type": "Producer",
       "class": "producers",
       "Genre": "Pop",
@@ -83,6 +88,7 @@
     {
       "id": 5,
       "name": "Eddie Gordon",
+      "tagline": "Kings of Spins, media guru",
       "type": "Consultancy",
       "class": "consultancy",
       "Genre": "EDM",

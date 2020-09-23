@@ -58,6 +58,11 @@ function createHTML(hydraUserData) {
         // console.log('selected user from index.html', hydraUserData.users[userId].name);
         // console.log('selected user from index.html', hydraUserData.users[userId].type);
         // console.log('selected user from index.html', hydraUserData.users[userId].location);
+        let hydraDataName = $('#hydra-data-name');
+        hydraDataName.empty().append(hydraUserData.users[userId].name);
+
+        let hydraDataTag = $('#hydra-data-tag');
+        hydraDataTag.empty().append(hydraUserData.users[userId].tag);
 
 } else {
     console.log('does the page have the class, user-details ? query returns false thus is the index.html page!');
