@@ -111,6 +111,16 @@ function createHTML(hydraUserData) {
         hydraDataFacebook.attr('href', hydraUserData.users[userId].facebook);
         console.log(hydraUserData.users[userId].twitter);
         console.log(hydraUserData.users[userId].name);
+
+
+        console.log(hydraUserData.users[userId].gallery[0]);
+        console.log(hydraUserData.users[userId].gallery[1]);
+        console.log(hydraUserData.users[userId].gallery[2]);
+        console.log(hydraUserData.users[userId].gallery[3]);
+        console.log(hydraUserData.users[userId].gallery[4]);
+        console.log(hydraUserData.users[userId].gallery[5]);
+
+
         
         
 
