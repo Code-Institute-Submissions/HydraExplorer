@@ -100,8 +100,11 @@ function createHTML(hydraUserData) {
         let hydraDataSpotifyEmbed = $('#hydra-data-spotify-embed');
         hydraDataSpotifyEmbed.empty().attr('src', hydraUserData.users[userId].spotifyembed);
 
+
+        //https://stackoverflow.com/questions/179713/how-to-change-the-href-for-a-hyperlink-using-jquery
     
-       
+        
+       $("#hydra-data-facebook").attr('href', hydraUserData.users[userId].facebook);
 
 
 
