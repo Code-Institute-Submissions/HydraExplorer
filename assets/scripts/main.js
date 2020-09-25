@@ -62,11 +62,18 @@ function createHTML(hydraUserData) {
         console.log(hydraUserData.users[userId].image);
 
 
-// check code with tutor to change css property !
-        let hydraDataHero = $('hydraUserData.users[userId].image');
-        $("hydra-data-hero").css("background-image", "url(" + hydraDataHero + ")");
-    //    check code with tutor to change css property !
+// check code with tutor to change css property ... ammendment, figured it out, by chance!
+        // let hydraDataHero = $('hydraUserData.users[userId].image');
+        
+        // correct data background hero and body sections
+        $("#hydra-data-hero").css("background-image", "url(" + hydraUserData.users[userId].image + ")");
 
+        // $(".bg").css("background-image", "url(" + hydraUserData.users[userId].image + ")");
+    //    
+
+
+
+    
 
 
         let hydraDataName = $('#hydra-data-name');
@@ -74,6 +81,9 @@ function createHTML(hydraUserData) {
 
         let hydraDataTag = $('#hydra-data-tag');
         hydraDataTag.empty().append(hydraUserData.users[userId].tagline);
+
+        let hydraDataImp = $('#hydra-data-imp');
+        hydraDataImp.empty().append("2020 ", hydraUserData.users[userId].name, " ", hydraUserData.users[userId].tagline);
 
         let hydraDataBio = $('#hydra-data-bio');
         hydraDataBio.empty().append(hydraUserData.users[userId].bio);
