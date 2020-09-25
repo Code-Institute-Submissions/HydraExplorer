@@ -97,6 +97,10 @@ function createHTML(hydraUserData) {
         let hydraDataBio = $('#hydra-data-bio');
         hydraDataBio.empty().append(hydraUserData.users[userId].bio);
 
+        let hydraDataGenre = $('#hydra-data-genre');
+        hydraDataGenre.empty().append(hydraUserData.users[userId].Genre);
+        console.log(hydraUserData.users[userId].Genre);
+
         let hydraDataSpotifyEmbed = $('#hydra-data-spotify-embed');
         hydraDataSpotifyEmbed.empty().attr('src', hydraUserData.users[userId].spotifyembed);
 
@@ -106,6 +110,8 @@ function createHTML(hydraUserData) {
         let hydraDataFacebook = $('#hydra-data-facebook');
         hydraDataFacebook.attr('href', hydraUserData.users[userId].facebook);
         console.log(hydraUserData.users[userId].twitter);
+        console.log(hydraUserData.users[userId].name);
+        
         
 
 
