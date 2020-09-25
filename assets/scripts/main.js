@@ -103,8 +103,10 @@ function createHTML(hydraUserData) {
 
         //https://stackoverflow.com/questions/179713/how-to-change-the-href-for-a-hyperlink-using-jquery
     
+        let hydraDataFacebook = $('#hydra-data-facebook');
+        hydraDataFacebook.attr('href', hydraUserData.users[userId].facebook);
+        console.log(hydraUserData.users[userId].twitter);
         
-       $("#hydra-data-facebook").attr('href', hydraUserData.users[userId].facebook);
 
 
 
