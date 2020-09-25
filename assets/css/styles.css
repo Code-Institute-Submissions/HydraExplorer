@@ -405,6 +405,7 @@ background-color: #fafafa;
 .wrapper img {
     max-height: 150px;
 max-width: 250px;
+padding: 10px;
 }
 
 

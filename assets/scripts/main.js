@@ -71,8 +71,8 @@ function createHTML(hydraUserData) {
         // correct data background hero and body sections
         $("#hydra-data-hero").css("background-image", "url(" + hydraUserData.users[userId].image + ")");
 
-        // $(".bg").css("background-image", "url(" + hydraUserData.users[userId].image + ")");
-    //    
+        $(".bg").css("background-image", "url(" + hydraUserData.users[userId].bgimage + ")");
+       
 
 
 
@@ -99,6 +99,13 @@ function createHTML(hydraUserData) {
 
         let hydraDataSpotifyEmbed = $('#hydra-data-spotify-embed');
         hydraDataSpotifyEmbed.empty().attr('src', hydraUserData.users[userId].spotifyembed);
+
+        let hydraDataBtnEmail = $('#hydra-data-btn-email');
+        
+        $("#hydra-data-btn-email").click(function () {
+    hydraDataBtnEmail.click().attr('src', hydraUserData.users[userId].email);
+    console.log(hydraUserData.users[userId].email)
+        });
        
 
         
