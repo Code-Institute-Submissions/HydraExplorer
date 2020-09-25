@@ -31,7 +31,9 @@ ourRequest.onload = function (hydraUserData) {
 
   console.log('data recieved from json', data);
   console.log("User identification for selected is : ", userId);
+  
     createHTML(data);
+    return hydraUserData;
     
   } else {  
     console.log("we connected to the server but it returned an error");
@@ -42,6 +44,7 @@ ourRequest.onerror = function () {
 };
 
 ourRequest.send();
+
 
 
 /* Handlebars.js - template function, my thoughts.. If has class run this, if not run original function, hydraUserData.users[userId]); */
@@ -82,6 +85,12 @@ function createHTML(hydraUserData) {
         let hydraDataTag = $('#hydra-data-tag');
         hydraDataTag.empty().append(hydraUserData.users[userId].tagline);
 
+        let hydraDataTags = $('#hydra-data-tags');
+        hydraDataTags.empty().append(hydraUserData.users[userId].tags[0]);
+
+        console.log(hydraUserData.users[userId].tags);
+
+
         let hydraDataImp = $('#hydra-data-imp');
         hydraDataImp.empty().append("2020 ", hydraUserData.users[userId].name, " ", hydraUserData.users[userId].tagline);
 
@@ -98,11 +107,14 @@ function createHTML(hydraUserData) {
 
 } else {
     console.log('does the page have the class, user-details ? query returns false thus is the index.html page!');
+   /* moved below let = usercontainer in to this scope and else statement to avoid console.log error 'not being declared' this is true as it is not needed in the users.html page only index.html */
+
+    let userContainer = document.getElementById("user-card-container");
+  userContainer.innerHTML = ourGeneratedHTML;
 }
 
 
-  let userContainer = document.getElementById("user-card-container");
-  userContainer.innerHTML = ourGeneratedHTML;
+  
 
 } 
 
