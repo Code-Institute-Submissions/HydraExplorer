@@ -75,10 +75,6 @@ function createHTML(hydraUserData) {
        
 
 
-
-    
-
-
         let hydraDataName = $('#hydra-data-name');
         hydraDataName.empty().append(hydraUserData.users[userId].name);
 
@@ -109,9 +105,30 @@ function createHTML(hydraUserData) {
     
         let hydraDataFacebook = $('#hydra-data-facebook');
         hydraDataFacebook.attr('href', hydraUserData.users[userId].facebook);
+
         console.log(hydraUserData.users[userId].twitter);
         console.log(hydraUserData.users[userId].name);
 
+
+
+        // Gallery jQuery - grabbing images from JSON gallery to display per user.
+
+        let hydraDatag1 = $('#hydra-data-g1'); 
+        hydraDatag1.empty().attr('src', hydraUserData.users[userId].gallery[1]);
+
+        let hydraDatag1 = $('#hydra-data-g2'); 
+        hydraDatag2.empty().attr('src', hydraUserData.users[userId].gallery[2]);
+
+        let hydraDatag1 = $('#hydra-data-g3'); 
+        hydraDatag3.empty().attr('src', hydraUserData.users[userId].gallery[3]);
+
+
+        let hydraDatag4 = $('#hydra-data-g4'); 
+        hydraDatag4.empty().attr('src', hydraUserData.users[userId].gallery[4]);
+
+
+        let hydraDatag5 = $('#hydra-data-g5'); 
+        hydraDatag5.empty().attr('src', hydraUserData.users[userId].gallery[5]);
 
         console.log(hydraUserData.users[userId].gallery[0]);
         console.log(hydraUserData.users[userId].gallery[1]);
@@ -127,8 +144,6 @@ function createHTML(hydraUserData) {
 
 
         
-
-       
 
 } else {
     console.log('does the page have the class, user-details ? query returns false thus is the index.html page!');
