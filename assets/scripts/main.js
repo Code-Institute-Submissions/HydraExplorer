@@ -72,6 +72,7 @@ function createHTML(hydraUserData) {
         $("#hydra-data-hero").css("background-image", "url(" + hydraUserData.users[userId].image + ")");
 
         $(".bg").css("background-image", "url(" + hydraUserData.users[userId].imagebg + ")");
+        console.log(hydraUserData.users[userId].imagebg);
        
 
 
