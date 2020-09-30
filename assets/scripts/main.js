@@ -71,7 +71,7 @@ function createHTML(hydraUserData) {
         // correct data background hero and body sections
         $("#hydra-data-hero").css("background-image", "url(" + hydraUserData.users[userId].image + ")");
 
-        $(".bg").css("background-image", "url(" + hydraUserData.users[userId].bgimage + ")");
+        $(".bg").css("background-image", "url(" + hydraUserData.users[userId].imagebg + ")");
        
 
 
@@ -82,7 +82,7 @@ function createHTML(hydraUserData) {
         hydraDataTag.empty().append(hydraUserData.users[userId].tagline);
 
         let hydraDataTags = $('#hydra-data-tags');
-        hydraDataTags.empty().append(hydraUserData.users[userId].tags[0]);
+        hydraDataTags.empty().append(hydraUserData.users[userId].tags[0], " ", hydraUserData.users[userId].tags[1], " ", hydraUserData.users[userId].tags[2]);
 
         console.log(hydraUserData.users[userId].tags);
 
@@ -114,28 +114,33 @@ function createHTML(hydraUserData) {
         // Gallery jQuery - grabbing images from JSON gallery to display per user.
 
         let hydraDatag1 = $('#hydra-data-g1'); 
-        hydraDatag1.empty().attr('src', hydraUserData.users[userId].gallery[1]);
+        hydraDatag1.empty().attr('src', hydraUserData.users[userId].gallery[0]);
 
         let hydraDatag2 = $('#hydra-data-g2'); 
-        hydraDatag2.empty().attr('src', hydraUserData.users[userId].gallery[2]);
+        hydraDatag2.empty().attr('src', hydraUserData.users[userId].gallery[1]);
 
         let hydraDatag3 = $('#hydra-data-g3'); 
-        hydraDatag3.empty().attr('src', hydraUserData.users[userId].gallery[3]);
+        hydraDatag3.empty().attr('src', hydraUserData.users[userId].gallery[2]);
 
 
         let hydraDatag4 = $('#hydra-data-g4'); 
-        hydraDatag4.empty().attr('src', hydraUserData.users[userId].gallery[4]);
+        hydraDatag4.empty().attr('src', hydraUserData.users[userId].gallery[3]);
 
 
         let hydraDatag5 = $('#hydra-data-g5'); 
-        hydraDatag5.empty().attr('src', hydraUserData.users[userId].gallery[5]);
+        hydraDatag5.empty().attr('src', hydraUserData.users[userId].gallery[4]);
 
-        console.log(hydraUserData.users[userId].gallery[0]);
-        console.log(hydraUserData.users[userId].gallery[1]);
-        console.log(hydraUserData.users[userId].gallery[2]);
-        console.log(hydraUserData.users[userId].gallery[3]);
-        console.log(hydraUserData.users[userId].gallery[4]);
-        console.log(hydraUserData.users[userId].gallery[5]);
+        let hydraDatag6 = $('#hydra-data-g6'); 
+        hydraDatag6.empty().attr('src', hydraUserData.users[userId].gallery[5]);
+
+        // console.log(hydraUserData.users[userId].gallery[0]);
+        // console.log(hydraUserData.users[userId].gallery[1]);
+        // console.log(hydraUserData.users[userId].gallery[2]);
+        // console.log(hydraUserData.users[userId].gallery[3]);
+        // console.log(hydraUserData.users[userId].gallery[4]);
+        // console.log(hydraUserData.users[userId].gallery[5]);
+
+
 
 
         
