@@ -116,10 +116,10 @@ function createHTML(hydraUserData) {
         let hydraDatag1 = $('#hydra-data-g1'); 
         hydraDatag1.empty().attr('src', hydraUserData.users[userId].gallery[1]);
 
-        let hydraDatag1 = $('#hydra-data-g2'); 
+        let hydraDatag2 = $('#hydra-data-g2'); 
         hydraDatag2.empty().attr('src', hydraUserData.users[userId].gallery[2]);
 
-        let hydraDatag1 = $('#hydra-data-g3'); 
+        let hydraDatag3 = $('#hydra-data-g3'); 
         hydraDatag3.empty().attr('src', hydraUserData.users[userId].gallery[3]);
 
 
