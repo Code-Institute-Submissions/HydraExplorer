@@ -33,7 +33,7 @@ ourRequest.onload = function (hydraUserData) {
   console.log("User identification for selected is : ", userId);
   
     createHTML(data);
-    return hydraUserData;
+    return hydraUserData; 
     
   } else {  
     console.log("we connected to the server but it returned an error");
