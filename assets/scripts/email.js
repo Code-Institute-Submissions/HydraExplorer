@@ -1,4 +1,4 @@
-console.log('alreet linked correctly');
+console.log('EmailJS service script working correctly');
 
 const btn = document.getElementById('button');
 
