@@ -26,13 +26,20 @@
       href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
     />
 
-    <!--Fancy Box for users.json gallery Stylesheet-->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
-    />
 
     <link rel="stylesheet" href="assets/css/styles.css" />
+
+
+    <!--Emailjs.com intergration-->
+
+<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('user_f7VEKMwii78g0ndoNBxSC')
+</script>
+
+
   </head>
 
   <body class="user-details">
@@ -40,7 +47,7 @@
     <div class="bg">
       <!-- add a class change from handlebars to change hero section on artist how do i change this? -->
 
-      <header id="hydra-data-hero" class="hero-artist">
+      <header id="hydra-data-hero" class="hero-artist"> 
         <!--Navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark">
           <!-- Navbar brand -->
@@ -200,22 +207,22 @@
           <!--Handlebars.js playlist JSON-->
         </div>
       </div>
-      <div class="container my-5 py-5 z-depth-1 block-white">
-        <!--Section: Content-->
+      
+       
+        <!--Section: contacy-->
+       
+       <div class="container my-5 py-5 z-depth-1 block-white">
+       
         <section
           id="contact-scroll"
           class="px-md-5 mx-md-5 text-center text-lg-left dark-grey-text"
         >
           <h3 class="font-weight-bold">
-            Influencer Collaboration request
+            Collaboration request
           </h3>
 
           <p class="text-muted">
-            Our Influencer platform allows a cross benefit situation for all
-            <br />
-            If you have a large presence on Social Media and wish to collaborate
-            with {{user}} fill in our request form below, Need to make playlists
-            of music for them to select. Music Selection
+            Request to work with <em><span id="hydra-data-cname"></span></em> 
           </p>
 
           <hr class="my-5" />
@@ -245,6 +252,8 @@
                 <div class="col-md-6">
                   <!-- Material outline input -->
                   <div class="md-form md-outline mb-0">
+                  
+                 
                     <input
                       type="text"
                       id="form-first-name"
@@ -316,7 +325,7 @@
                 <label for="form-message">How do you w?</label>
               </div>
 
-              <button type="submit" class="btn btn-dark btn-sm ml-0">
+              <button type="submit" id="" class="btn btn-dark btn-sm ml-0">
                 Submit<i class="far fa-paper-plane ml-2"></i>
               </button>
             </div>
@@ -325,8 +334,31 @@
           <!--Grid row-->
         </section>
         <!--Section: Content-->
+
+
+<form id="form">
+  <div class="field">
+    <label for="from_name">from_name</label>
+    <input type="text" name="from_name" id="from_name">
+  </div>
+  <div class="field">
+    <label for="to_name">to_name</label>
+    <input type="text" name="to_name" id="to_name">
+  </div>
+  <div class="field">
+    <label for="message">message</label>
+    <input type="text" name="message" id="message">
+  </div>
+  <div class="field">
+    <label for="reply_to">reply_to</label>
+    <input type="text" name="reply_to" id="reply_to">
+  </div>
+
+  <input type="submit" id="button" value="Send Email" >
+</form>
+
       </div>
-      s
+    
       <footer>
         <!-- Copyright -->
         <div id="hydra-data-imp" class="footer-copyright text-center py-3">
@@ -372,10 +404,13 @@
       crossorigin="anonymous"
     ></script>
 
-    <!--FancyBox Script for lightbox gallery for users.-->
-    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    
 
     <!-- Hydra Users  - Main handlebars script for processing user data from JSON-->
     <script type="text/javascript" src="assets/scripts/main.js"></script>
+
+<!-- Email.js  -Processing form -->
+    <script type="text/javascript" src="assets/scripts/email.js"></script>
+
   </body>
 </html>
