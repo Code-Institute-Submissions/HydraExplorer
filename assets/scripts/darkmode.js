@@ -91,10 +91,15 @@ darkMode = localStorage.getItem('darkMode');
 if (darkMode !== 'enabled') {
     enableDarkMode();
     console.log(darkMode);
+
+    
+        $('#dark-mode-toggle').removeClass('btn-dark').addClass('dark-btn');
+        console.log('darkbutton toggler test')
 }
 else {
     disableDarkMode();
     console.log(darkMode);
+    $('#dark-mode-toggle').removeClass('dark-btn').addClass('btn-dark');
 }
 
 });

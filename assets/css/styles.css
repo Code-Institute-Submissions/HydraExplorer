@@ -436,3 +436,8 @@ padding: 10px;
 }
 
 
+.darkmode #dark-mode-toggle { 
+    color: white;
+    background-color: green;
+}
+
