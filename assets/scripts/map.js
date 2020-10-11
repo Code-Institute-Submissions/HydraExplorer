@@ -428,7 +428,7 @@ function initMap() {
         '',
 
       content:
-        '<h5>Dan Thomas</h5> <a href="index.html">Index link</a>',
+        '<h5>Dan Thomas</h5> <a href="https://danielboots.github.io/HydraExplorer/users.html?id=0">Profile</a>',
     },
     {
       name: 'Hydrasound', 
@@ -437,7 +437,7 @@ function initMap() {
         '',
 
       content:
-        '<h5>Hydrasound</h5> <a href="index.html">Index link</a>',
+        '<h5>Hydrasound</h5> <a href="https://danielboots.github.io/HydraExplorer/users.html?id=1">Profile</a>',
     },
     {
       name: 'K-Syran', 
@@ -446,7 +446,7 @@ function initMap() {
         '',
 
       content:
-        '<h5>K-Syran</h5> <a href="index.html">Index link</a>',
+        '<h5>K-Syran</h5> <a href="https://danielboots.github.io/HydraExplorer/users.html?id=2">Profile</a>',
     },
     {
       name: 'VASSY', 
@@ -455,7 +455,7 @@ function initMap() {
         '',
 
       content:
-        '<h5>Vassy</h5> <a href="index.html">Index link</a>',
+        '<h5>Vassy</h5> <a href="https://danielboots.github.io/HydraExplorer/users.html?id=3">Profile</a>',
     },
     {
       name: 'Joseph Viteritto', 
@@ -464,7 +464,7 @@ function initMap() {
         '',
 
       content:
-        '<h5>Joseph Viteritto</h5> <a href="index.html">Index link</a>',
+        '<h5>Joseph Viteritto</h5> <a href="https://danielboots.github.io/HydraExplorer/users.html?id=4">Profile</a>',
     },
     {
       name: 'Eddie Gordon', 
@@ -473,7 +473,7 @@ function initMap() {
         '',
 
       content:
-        '<h5>Eddie Gordon</h5> <a href="index.html">Index link</a>',
+        '<h5>Eddie Gordon</h5> <a href="https://danielboots.github.io/HydraExplorer/users.html?id=5">Profile</a>',
     },
 
     
