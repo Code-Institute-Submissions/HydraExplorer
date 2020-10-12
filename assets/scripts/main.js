@@ -110,7 +110,10 @@ function createHTML(hydraUserData) {
 
         //This doesnt seem to be working just yet... check with mentor if cant figure solution myself.
 
-        $('#hydra-data-facebook').empty().attr('href', hydraUserData.users[userId].facebook);
+        // test using url: 
+         $('#hydra-data-facebook').empty().attr('href', "https://www.w3schools.com/jquery/");
+
+        // $('#hydra-data-facebook').empty().attr('href', hydraUserData.users[userId].facebook);
 
         $('#hydra-data-twitter').empty().attr('href', hydraUserData.users[userId].twitter);
 
