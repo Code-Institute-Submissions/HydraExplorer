@@ -110,16 +110,14 @@ function createHTML(hydraUserData) {
 
         //This doesnt seem to be working just yet... check with mentor if cant figure solution myself.
 
-        // test using url: 
-         $('#hydra-data-facebook').empty().attr('href', "https://www.w3schools.com/jquery/");
+       
+        $('#hydra-data-facebook').attr('href', hydraUserData.users[userId].facebook);
 
-        // $('#hydra-data-facebook').empty().attr('href', hydraUserData.users[userId].facebook);
+        $('#hydra-data-twitter').attr('href', hydraUserData.users[userId].twitter);
 
-        $('#hydra-data-twitter').empty().attr('href', hydraUserData.users[userId].twitter);
+        $('#hydra-data-instagram').attr('href', hydraUserData.users[userId].instagram);
 
-        $('#hydra-data-instagram').empty().attr('href', hydraUserData.users[userId].instagram);
-
-        $('#hydra-data-spotify').empty().attr('href', hydraUserData.users[userId].spotify);
+        $('#hydra-data-spotify').attr('href', hydraUserData.users[userId].spotify);
 
         // check to see if user social handles print out correct data for testing purpose
         console.log(hydraUserData.users[userId].facebook);
