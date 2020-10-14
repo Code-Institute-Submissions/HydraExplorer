@@ -2,13 +2,13 @@
 
 ## 🎵 **Hydrasound - Explorer** - _Find your music professional_
 
-![MPS logo and strap line ](/images/mpslogostrap.png)
+![MPS logo and strap line ](assets/img/hydraEx.png)
 visit the deployed website here: ****[Hydrasound Explorer deployed on Github Pages](https://danielboots.github.io/HydraExplorer/):**
 
 --
 ## 📓 **About the project:**
 
-**Hydrasound Explorer** HydraExplorer is thestart of an application i have been wanting to build for a while, where it will allow users to find Hydrasound members with the particular skills they are looking for. 
+**Hydrasound Explorer** HydraExplorer is the start of an application i have been wanting to build for a while, where it will allow users to find Hydrasound members with the particular skills they are looking for. 
 For example a user can search for Remixers or music consultantcy services and our application will return the relevant results. The results are then associated with their own user page for further infomation and contact details.
 I decided to approach the web app using the front end DOM manipulation skills and frameworks i have learned so far from the code institute full stack course. Primarily Javascript and Jquery amonst other technologies.
 
@@ -29,6 +29,10 @@ ___
 * **[JQUERY](https://jquery.com/):** - *Extensive parts of the web application are programmed in Jquery, click event listeners on page loads and loading of the users data all employ the use of JQuery.*
 
 * **[BOOTSTRAP](https://getbootstrap.com/):** - The framework for the site allowing use of the Bootstrap grid and responsive mobile first approach. I Used many components from Bootstrap mainly, the Carousel, Nav bar, forms and modals. 
+
+* **[HANDLEBARS.JS](https://handlebarsjs.com/):** - Handlebars allowed me to template out the user cards on the front page from JSON data. It worked by iterating over the JSON users data and running its templating functionality to provide me with the boostrap cards for users which i needed. Reasoning for this instead of hard coding was ease of use, to add a new user i just add the new user to the JSON data and the templating is handled for me.
+
+* **[GOOGLE MAPS](https://developers.google.com/maps/documentation):** - I used the Google Maps API in order to add in user data to the map providing a visual representation to users of where the 'professional musician' is based.
 
 * **[GITPOD](https://gitpod.io/):** - IDE for this project. Allowed me to fork the Code Institute template from Github and open in Gitpod so that all extenstions were available.
 
@@ -51,27 +55,43 @@ ___
 
 ## 💡 **Strategy plane: The Initial idea.**
 ___
-The business is entirely online and is concerned with music production services . From Mixing, mastering, track production, consulting etc with the primary aim of the website to display that information to the end user and get the potential client to contact users of the application directly to discuss their needs further.
+The basis behind the HydraExplorer idea, was to start a web app which allows users to search for music service, be it a music producer or remixer, consultancy etc. In a very easy and intuitive and visual was regarding UX. My primary aim was to bring together many of the technologies i have learned so far to then use these technologies and display data in a comprehensive way. I aim to bring in user data using JSON and AJAX so that my web app has the ability to expand and grow with ease as users can and will eventually allow themselves to register and upload their own data to the app. For this initial app, i will hard code the JSON data but provide extensive evidence of my knowledge of templating JSON and AJAX to satisfy the assesment criteria. 
+
+The web app, should, display musician data in a clear and unclutted manner,for best UX and also allow the user of the web app to find the correct user by service with extreme ease. I will acomplish this by the use of jQuery to provide hide effects and also to change hero sections based on user selections. 
 
 
 ## **About the business:**
 
-The business is entirely online and is concerned with music production services. From Mixing, mastering, track production, consulting etc with the primary aim of the website to display that information and get the potential client to contact users directly using the forms provided to discuss their needs further.
+The business is entirely online and is concerned with music production services provided by musicians who can add their details to the Hydra Database (for now this is hard coded in JSON format). From Mixing, mastering, track production, consulting etc with the primary aim of the website to display that information and get the potential client to contact users directly using the forms provided on their individual users page to discuss their needs further.
+
+
 
 #### **strategy plane continued in full lengh analysis .pdf**
 
+As i aim to build upon the initial features of this web app i suggest the following strategy in order to allow the web app to grow exponentially without the need for excess page creation.
+I am using templating from Handlebars and jQuery to pull in JSON data on a hard coded template page, this will pull in all data related to the user and display it on their very own user page, with their id number. This furthermore allows me to just hard code one page Users.html and not create pages for each individual musician.
 
 ## 🧰 **Scope Plane - requirements and functional specifcation**
 ___
 ### **What users and stakeholders - Say they need**
 
-* The user visiting this type of website wants a professional website easy to navigate and also find the music professioanl they are looking for, with links to more information and examples of their work.
+* The user visiting this type of website wants a professional website easy to navigate and also find the music professioanl they are looking for, with links to more information and examples of their work, this can be provided through a number of means, for example Spotify, Youtube, Biography  / discog etc.
 
 ### **What users and stakeholders - Actually need**
 They need a clean and tidy designed website which is mobile responsive, highlighting previous work, the music producer who will be working for them and a list of previous clients and labels who we as the business owners can get them in touch with. They need a site that gives them information based on what they are searching for. So a prioritised section of the website for said services, additional information on the services and an opportunity to discuss the project with a real life person over the phone or on email.
 
 ### **What users and stakeholders - Don't know they need.**
 
+* As a working business website, we have to abide by GDPR rules, so a pop up advising the client on our privacy and how we use their information would be needed down the production line. This production app will not have this in place but will be if deployed.
+
+* A merchandise store – an opportunity to increase revenue as a more B2C standard practice. 
+
+* Other desirable features may include, online reviews, more services for music promotion and education through a LMS or one to one coaching. 
+* A system to which users can add their own details through registration. These services would beneft not only the user but the business owner as he can monetise these features whilst ofering more services to the client, monetisation may be through allowing user registration for a monthly subscription fee. 
+
+* Social networking feature – not essential but desirable, perhaps a twitter/facebook like entity where users can register to the site share their music tips and advice, this would allow for content to be shared cross platform and to other social media accounts, drastically increasing awareness of our web application.
+
+* An iOS and android app – its true that many users now if these features down the line are implemented that developing an application would be of extreme beneft, it would allow extra monetisation brand awareness and next level professionalism, as far as I am aware there are no such apps with the previous aforementioned features bundled into one. This could be an avenue to explore in the future. I have been exploring this avenue with my mentor Allen and he has suggested that in the future it would be wise if this approach were to be undertaken that it would / should be produced using Dart and Flutter from Google, Reasoning behind this is that i would only be looking at maintaining one code base for the web application iOS and Android applications.
 
 #### **Scope plane continued in full lengh analysis .pdf**
 
@@ -84,12 +104,35 @@ As it stands there will only be 2 pages, this is because i have employed a templ
 
 The menu items are only one level consisting of a linear structure, so no nested pages as of yet. The structure is as follows.
 
-#### **HOME---USERS:**
+#### **HOME---USERS:** 
+* For this web app, the home page is employed, users.html wont be available on the nav bar but the users.html is a templated page. An extended menu version may be by separating data off into categories such as 'Remixers, Producers etc' however as my database of users only consists of 6 people i deemed it unessessary at this moment in time.  
 
 ### **Information on structure regarding page layout and design.:**
  The general structure of pages will consist of a nav bar, a hero section and then relative content to that page, structured using the projects fonts, font sizing and colour palette.
 * As discussed earlier I have opted for a content block approach which will allow me to display content in a clean and structured manner. These two points allow the user to learn the layout and feel of the website quickly.
 * Each page will have working navigation whereby the text HYDRAEXPLORER will return the user to the home or landing page.
+
+* The home page will have the Handlebars templating library employed so that it can generate the user cards needed. Speaking with my mentor it was deemed that the user cards be generated above the map section for a better UX experience.
+
+* Users.html will be a hard coded template page which pulls in JSON data using AJAX, this will allow me to create one hard coded page which using javascript allows me to display the correct user data for the selected page. 
+
+* A working example of the above would mean that when a user selects the option for a consultancy agency the options HYDRASOUND and EDDIE GORDON are highlighted. If the user selects Hydrasound, then i have coded that option to have an id of 1. When clicking, data is poipulated in the USERS.HTML to show JSON data from the user with the id of 1. This id is grabbed from the URL using Javascript code in the main.js file. The code to achieve this is below.
+
+``` javascript
+
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    let regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)");
+    results = regex.exec(url);
+    if (!results) return null;
+    if (!results) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+
+let userId = getParameterByName('id');
+
+```
 
 
 EXPAND 
