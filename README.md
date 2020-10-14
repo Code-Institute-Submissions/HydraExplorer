@@ -46,6 +46,16 @@ ___
 
 * **[BALSAMIQ](https://balsamiq.com/):** - Mac version to develop wireframes for this project.
 
+* **[CHROME](https://www.google.com/intl/en_uk/chrome/):** - Not only did i use Chrome extensively for testing and bug fixing but I used the following extensions :
+
+* **[PESTICIDE](https://www.google.com):** -  This extension inserts (with auto reload) the Pesticide CSS into the current page, outlining each element. - Giving a good visual representation of containers rows etc, as i was using material design from MDBootstrap i was inserting containers in to containers in points to get the desired layout and style, this extension allowed me to view the layout correctly. 
+* **[JSON VIEWER AWESOME](https://chrome.google.com/webstore/detail/json-viewer-pro/eifflpmocdbdmepbjaopkkhbfmdgijcc):** - A extension to visualise JSON response in awesome Tree and Chart view, helped me with writing jQuery with regards to how to access the correct JSON values.
+* **[RESPONSIVE VIEWER](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb):** -  An excellent extension suggested to me by my Mentor Allen - A Chrome extension to show multiple screens in one view. the extension will help front-end developers to test multiple screens while developing responsive websites/applications.
+
+
+
+
+
 ___
 
 
@@ -114,9 +124,14 @@ The menu items are only one level consisting of a linear structure, so no nested
 
 * The home page will have the Handlebars templating library employed so that it can generate the user cards needed. Speaking with my mentor it was deemed that the user cards be generated above the map section for a better UX experience.
 
-* Users.html will be a hard coded template page which pulls in JSON data using AJAX, this will allow me to create one hard coded page which using javascript allows me to display the correct user data for the selected page. 
 
-* A working example of the above would mean that when a user selects the option for a consultancy agency the options HYDRASOUND and EDDIE GORDON are highlighted. If the user selects Hydrasound, then i have coded that option to have an id of 1. When clicking, data is poipulated in the USERS.HTML to show JSON data from the user with the id of 1. This id is grabbed from the URL using Javascript code in the main.js file. The code to achieve this is below.
+* The footer consists of two sections positioned centrally and away from the edges of the site so that any information can be viewed with out scanning from left to right on larger screen resolutions. I discovered this as I work on a 27inch iMac and having content full width at this size is bad for UX in my personal experience.
+Regarding the footer, section one or block one will have an information box
+section the second will offer my own contact details.
+
+* Users.html will be a hard coded template page which pulls in **JSON** data using **AJAX**, this will allow me to create one hard coded page which using javascript allows me to display the correct user data for the selected page. 
+
+* A working example of the above would mean that when a user selects the option for a consultancy agency the options **HYDRASOUND** and **EDDIE GORDON** are highlighted. If the user selects Hydrasound, then i have coded that option to have an id of 1. When clicking, data is poipulated in the USERS.HTML to show JSON data from the user with the id of 1. This id is grabbed from the URL using Javascript code in the main.js file. The code to achieve this is below.
 
 ``` javascript
 
@@ -133,17 +148,17 @@ function getParameterByName(name, url) {
 let userId = getParameterByName('id');
 
 ```
+* The users.html page in particular employs a contact me button using an #ID scroll function so that potential clients can quickly get to the contact me form without having to scroll through the full user page. This will become more important for UX when more user detail is added, for example reviews, ratings etc.
 
-
-EXPAND 
 
 ### **IXD:**
-Hero section is not full viewport height with next sections always visible, this promotes scrolling and intrigue.
+
+Hero section is not full viewport height it uses the CSS style  `height: 95vh;` with next sections always visible, this promotes scrolling and intrigue.
 * Colours fonts and structure are reused throughout the site.
 * I did however add an animation class from Animista which was used throughout the site on the hero text and strap line,
 it plays once on page load and is a fade animation, which I feel adds a subtle but impressive introduction when visiting pages. No further animations are employed.
 
-#### **structure plane continued in full lengh analysis .pdf**
+
 
 ## ✏️ **Skeleton Plane – Interface design, navigation design and giving form to function:**
 ___
@@ -163,11 +178,11 @@ Please note – these wireframes may difer slightly from the end result
 
 
 ### **Skeleton plane cont:**
-//ammend this part// 
-In this project we are only focusing on data presented, and will be future enhance this project with data at rest and data in motion.
-However as we are only concerned with the frontend HTML CSS and a small amount of Javascript I have only focused my UX on data presented.
 
-The data presented should provide good usability and at current is only concerned with a few features, contacting through CTA and presenting the information using tools such as cards and carousels. As there are very few features and a sole aim at contacting through the site this should alleviate cognitive overload from the end user.
+In this project we are only focusing on data presented and data in motion through the use of AJAX and JSON, i. also use JSON to populate data from **Spotify** in the form of a users top tracks.  
+
+
+The data presented should provide good usability and at current is only concerned with a few features, contacting through CTA and presenting the information using tools such as user cards and presenting data in blocks. As there are very few features and a sole aim at contacting through the site this should alleviate cognitive overload from the end user. This is acheived by presenting the contact form on the user page only and not on the index.html page.
 
 Navigation has been assembled in order of priority from left to right and all links and internal links are well displayed (many as buttons) and working.
 
@@ -188,6 +203,33 @@ Brian O'Grady - Code Institute
 add features: 
 * The web app is totally mobile responsive with a collapsible toggler navigation. 
 
+* The site has features such as Youtube and Spotify embeded into it, pulled in through JSON data.
+* I used interchangable parallax style Hero and separator sections for modern display of content.
+
+* Hero sections change on service section mouse over.
+* jQuery animations used to fade out irrelevant options as selected by the user, Button click events allow this. 
+
+
+* The Logo position left always takes the user back to the Home page.
+* Google Maps used so that users can see the users location. This is using an API from Google and programmed in javascript. 
+* Social media icons are active and link to relative external platforms using data from JSON to change the href attributes on the users.html pages for each user.
+* Expected use of font awesome icons to assist in users learning of the site.
+
+* Use of animation for hero text - minimal use of animation but effective for a pleasureable experience on page load.
+
+* Footer features on Index.html with infomation section describing the service, and a direct contact section populated with my personal infomation. 
+
+* Users utliizes bootstrap cards which display image and content relevant to the user is looking for, regarding their specific areas of expertise. This was furthermore templated using the Handlebars.js library. This allowed the developer to create one template card which was used to create all the data cards for the users.
+
+* Templating using Handlebars must get a specific mention as this allowed me to realise this project from the beginning, by templating the user cards and pulling in the JSON data especially assigning user ID's i was then able to link the templated user card to a user.html page specific for that ID. 
+using the templated page i then used the jQuery library to populate the user specific page using data specific from JSON.(Which im proud of achieving).
+
+* As i produced the first version of the site, i thought it may be good to employ the use of a dark mode toggle function. This dark mode uses Dark mode CSS to change the background of the white containers to my branded grey slate colour. I found this useful for UX as especially with jQuery fade features it really stood out presenting the data far better. 
+* in addition to dark mode i added a local storage feature to the dark mode so even on page refresh dark mode is still active if it was previous, this will also be indicated with the dark mode toggle button, when active the button is highlighted in a green 'On' status. 
+
+* 
+
+
 ### **_Code Refactoring_:** 
 ___
 In this project i also used the extension to Gitpod called prettier which would format my code, however i then went through each page 
@@ -198,26 +240,82 @@ and ensured there were no excess lines of whitespace. I also chose a uniformed w
 ___
 
 Testing was an integral part of the design and build process, responsiveness is cruicial to the success of any online website so a number of steps were employed to ensure that the site worked across a number of platforms and browsers.
+Not only responsiveness but positioning, colours, inheritence etc were all factors to be taken into consideration, thus Google Chrome developer tools was used extensively to test all aspects of the site.
+Although Bootstrap is a mobile first approach i opted to work on a simple desktop version first as i could work backwards.
+I first of all set up a few .css rules for the body section which allowed me to set some global rules such as.
 
+<!-- Code Blocks -->
+``` Css
+  * {
+  box-sizing: border-box;
+}
+```
+Which made sure that i was working with the box model more logical. 
+
+One other major factor i came across is when using `.container-fluid` my content was as expected at full width across the screen, which for some sections i liked but on bigger screen resolutions i found for UX purposes i needed to set a max width so that the content didnt spread across the page. I found this looked sloppy and not good in terms of design. I tested this too out with dev tools to create a `.container-max` rule which for large screen resolutions the content was displayed better.
+Resulting in: 
+
+``` css
+/* container to pull in content on non full width containers */
+
+.container-max {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1400px;
+  padding: 15px;
+}
+
+```
 
 
 ## 🧪 **User Experience testing:**
 
+As this website is aimed at getting clients to interact with the site through contacting a 'musician' i had to ensure that in my testing i adequately tested the UX and that it was simple enough for the user to "learn" how to use the site and follow industry standards and user expectations.
 
-### **Utilising Mentor Sessions:**
+This translated in to me using a top menu bar with LOGO positioned to the left as expected.
+For this website i havent provided an extensive menu option as i want users to use the button selectors under the hero section to find the correct musician service.
+
+I used many inbound links and tested all links ensuring that they all work and link correctly, this had to be tested on each individual user as all data is being populated from the uses.json file. So although i only have an index and users.html the users.html can potentially display hundreds of thousands of users. So efficent use of testing is employed here.
+
+* Furthermore to this testing method this project taught me the importance of **Console.log()** as i used this for every piece of code and testing i used, i found that i could deep dive into my javascript and jQuery code and work out alot of how to display data by testing logs in the console. For this application i have left alot of my console logs active in the code, if you would like to explore what logs i am using, feel free to use the developer tools to display the data. 
+
+I have also taken the liberty of providing an example of my logs for users.html below. 
+
+![Console logs for users page](assets/img/console.png)
+
+* All social media icons on users.html link to the right external pages using the target="_blank" attribute so that external pages are opened in a new tab.
+I tested all parts of the website including Bootstrap components, as i used:
+
+* Bootstrap cards - tested on all responsiveness screen sizes and 
+
+### **Utilising Mentor and tutor Sessions:**
+
+After my initial mentor session to discuss the idea and scope of the project i made sure that i could bring the project as far to completion as possible so that i could use his expertise in our next session. 
+
+* The second meeting Allen did advise me to change the layout of my project so that the map recided below the user generated card templating. 
+* He also fixed a bug in the social media link buttons which was bugging me for a while, however it was a simple error where i had left the # in the id of the button, removing that fixed all errors, simple bug but something that had evaded me for a week or so. Further more we added in a `target_blank` to the `href` so those links pulled in from the user.json linked in a different window. 
+
+My third session covered what points i should highlight in my readme.md file. Which included mentioning the Templating function using Handlebars.js the specific code to grab the user id from the url and a few other things. We went over my project folder structure and naming conventions to ensure these were correct before submission,as this was highlighted in my milestone 1 submission. 
+
+He was happy with the level of independence i had shown on this project and we then finalised the check list ensuring all criteria was covered. 
+
 
 
 ### **Further Testing:**
 * The use of validation services for **[Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/)** and **[HTML Validator](https://validator.w3.org/)** allowed me to modify and fix any errors in my code, 
 
-* I Used the Gitpod built in html testing as seen below![iframe testing error on HTML validator](/images/testing.png) which ended up being a great learning tool spotting errors or unclosed ```<.div>``` etc.
+* I Used the Gitpod built in html testing as seen below![iframe testing error on HTML validator](assets/img/errortest.png) which ended up being a great learning tool spotting errors or unclosed ```<.div>``` etc.
 I should also add that this tool brought to my attention that as i was using multiple forms on pages that my ID's needed to be unique, an issue which was quickly rectified but easily overlooked. 
+what i do like about this tool is that it even tells you what line to look at for the aformentioned error.
+
+* Emmet is also a great testing tool as if you do get errors or unclosed tags it will suggest to you the closing tag to use. I find this very helpful in bug fixing and testing.
+
 * I finally used **[GTMETRIX](https://gtmetrix.com/)** which is used to test page website speeds. All testing came back fine apart from image sizes which scored pretty low. Thus i used the free online **[SQUOOSH](https://squoosh.app/)** to reduce massive image sizes upto 80% of their original file size. This is especially important as large image sizes dramatically increase page loading speeds and leads to a bad UX especially on mobile where heavy loading sites can eat data very quickly. 
 
 
 ### **Testing Issues:*
 
-### **_HTML Validation error when using Youtube embed._**
+### **_HTML Validation error when using Youtube embed._** 
 ___
 
 
@@ -243,7 +341,8 @@ If you should require to fork or obtain a copy of this website you can follow th
 1. Click on the GREEN clone or download button, located at the top right of the page see screenshot below.
 
 
-    ![Repo Clone step](/)
+    ![Repo Clone step](assets/img/clone.png)
+
 
 1. Click on the "clipboard" also located on the right now seen as a dropbown box. You can either click the clipboard or the URL, if using URL method remember to right click highlighted URL and copy.
 1. Open your IDE and open a new terminal window.
@@ -256,15 +355,15 @@ Follow these steps in order to then launch the project using Github pages to be 
 
 1. Enter the _MPS Repository_ from the Github Dashboard.
 
-    ![GitHub Pages](/)
+    ![GitHub Pages](assets/img/repo.png)
 
 1. Click on the settings tab.
 
-    ![GitHub Pages](/)
+    ![GitHub Pages](assets/img/settings.png)
 
 1. Scroll right to the bottom of the page options where you will find the "**GitHub Pages**" Options.
 
-    ![GitHub Pages](/)
+    ![GitHub Pages](assets/img/masterbranch.png)
 
 From the "Source" option, chose "Master Branch" from the presented options.
 The page will refresh and you will receive a notification saying. " _**Your site is published at: [https://danielboots.github.io/HydraExplorer/](https://danielboots.github.io/HydraExplorer/)**_"
@@ -281,7 +380,7 @@ So all text and information pertaining to my services is of my own work.
 ### **Media - images** 
 Over the course of my project i used various sources for media - 
 
-* **All other Media images** -  From my own website - which was located at https://musicproductionservice.com 
+* **All other Media images** -  From my own website - which was located at https://hydrasound.com 
 * original content for these logos came from **Pexels**, **Envato Elements** and **https://Hydrasound.com**
 
 ### **Code Snippets** 
@@ -294,9 +393,9 @@ Over the course of my project i used various sources for media -
 
 ### **Media Embeds** 
 
-* **Music Media** - Soundcloud - https://soundcloud.com
+* **Music Media** - Spotify - https://spotify.com
 * **Video media** - Youtube -   https://Youtube.com
-
+* **Image Galleries media** - Located from Google web search or artist official websites / social media profiles.
 
 ### **Animation Css External Libraries** 
 
