@@ -3,7 +3,13 @@
 ## 🎵 **Hydrasound - Explorer** - _Find your music professional_
 
 ![MPS logo and strap line ](assets/img/hydraEx.png)
+
+![index gif](assets/media/mediasize.gif)
+![user gif](assets/media/user.gif)
+
 visit the deployed website here: ****[Hydrasound Explorer deployed on Github Pages](https://danielboots.github.io/HydraExplorer/):**
+
+
 
 --
 ## 📓 **About the project:**
@@ -272,14 +278,14 @@ ___
 Please note – these wireframes may difer slightly from the end result
 
 
-#### **Landing Page - Wireframe **
 
-#### **Landing Page - Wireframe **
-![Wireframing-Landing](/)
+
+#### **Index Page - Wireframe **
+![Wireframing-index.html](assets/img/wireframe/index.png)
 
 
 #### **USERS - Wireframe **
-![Wireframing-Users](/)
+![Wireframing-Users](assets/img/wireframe/users.png)
 
 
 ### **Skeleton plane cont:**
@@ -373,6 +379,8 @@ Resulting in:
 ```
 
 
+
+
 ## 🧪 **User Experience testing:**
 
 As this website is aimed at getting clients to interact with the site through contacting a 'musician' i had to ensure that in my testing i adequately tested the UX and that it was simple enough for the user to "learn" how to use the site and follow industry standards and user expectations.
@@ -391,7 +399,46 @@ I have also taken the liberty of providing an example of my logs for users.html 
 * All social media icons on users.html link to the right external pages using the target="_blank" attribute so that external pages are opened in a new tab.
 I tested all parts of the website including Bootstrap components, as i used:
 
-* Bootstrap cards - tested on all responsiveness screen sizes and 
+* Bootstrap cards - tested on all responsiveness screen sizes and operating systems.
+
+**User Experience: from top to bottom testing each feature for bugs**
+
+**index.html testing**
+* Home Button always returns user to index.html
+* HE Logo always returns user to index.html
+* Dark mode toggles dark mode on and off, green highlight button works, also logs status to console.
+*  All button returns all card selectors to inital state.
+* Singers button displays only users with singer class.
+* Producers button displays only users with producer class.
+* Remixers button displays only users with remixer class.
+* Consultancy button displays only users with consultant class.
+* Hovering over 'singer' 'producer' 'remixers' and 'consultancy' block images changes Hero image to appropriate background image.
+* Card templating, returns all users in JSON object 'users'
+* Card templating displays correct information for all users: Name, type, genre, location, country and tags.
+* Card templating profile button assigns correct user ID for all users
+* Map displays locations and links to all users correctly, clicking a marker displays user location and a link to the correct url.
+* Footer displays correct information.
+
+**users.html testing**
+* success from server loading users.json as from console.log
+* console logs report data being recieved for correct user each page
+* console logs return correct user id from URL and checks for class user-details.
+* Correct user id appended to the user.html for example https://danielboots.github.io/HydraExplorer/users.html?id=0 returns Dan Thomas and all relevant data from JSON for that user.
+* Correct hero image displayed with overlay and parallax working.
+* JSON data for User name displays correct information.
+* JSON data for Tag Line displays correct information.
+* JSON data for Genre displays correct information.
+* JSON data for Tags displays correct information.
+* Contact me button ID scrolls to correct position (Contact request form)
+* JSON data for Biography displays correct information.
+* JSON data for Social media buttons displays correct clickable links which open in a new window.
+* JSON data for Spotify top tracks data displays spotify embed correctly.
+* JSON data for Youtube embed displays Youtube video to the container correctly.
+* JSON data for Gallery  data displays all images from array correctly, with placeholder image if no gallery link supplied as per the template.
+* EmailJS contact form works, tested a number of times from each user page.
+* Copyright / footer data pulled from JSON displays correct.
+
+
 
 ### **Utilising Mentor and tutor Sessions:**
 

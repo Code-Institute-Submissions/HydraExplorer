@@ -24,6 +24,12 @@ h1 {
 
 }
 
+/* Image styling by default - logo code taken from milestone 1  */
+
+.brandlogo {
+  width: 32px;
+  margin-left: 10px;
+}
 
 
 /* End of default styles */
