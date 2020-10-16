@@ -153,10 +153,35 @@ This was an important part in the planning of the website, how to template the u
 *	Call to actions with complimentary advice or request phone call to discuss needs.
 *	Means in which to contact the website or myself across timezones and countries.
 
+**What does the user / client expect?**
+
+*	Strong Branding- Does this website come across as an authority in its field. I feel we do by the use of correctly structured content, branding through colour and font type and also consistency throughout.
+*	Pricing – this is often not displayed for contracted work on the website so enquiring for more information is often accepted for this B2C business, I am aware that this is often employed with B2B however each clients project needs are different and each project budget is discussed on an individual basis. This also prevents competitors from under pricing and also gives the business owner the opportunity to explain costs associated with the service the client is enquiring about.
+*	Does the business offer the services which I am looking for? - Music production, remixing etc, does it fit my needs in terms of style and genre.
+*	Does the site have evidence of previous work I can listen to and make an informed decision. - It does from spotify top tracks, biography and Youtube, further development of the website will include a dedicated section for previous work displayed in a portfolio.
+*	Ease of use and contractible -multiple CTA and quick forms available on each page with social media accounts displayed below the user biography, Maps with correct addresses of the users for increased assurance.
 
 
+**Prioritisation – To launch a Minimal Viable Product.**
 
-#### **strategy plane continued in full lengh analysis .pdf**
+We can address which features should be prioritised primarily by developing a map of importance and viability/ feasibility.
+For this submission we will be focusing on UX efforts of higher importance and developing features of lower importance and viability/feasibility further in the timeline of this project.
+
+
+| Opportunity/Problem       | Importance         | Viability  |
+| ------------- |:-------------:| -----:|
+| **_A.     Increase user conversions through CTA on user profiles_**       | 5 | 5 |
+| **_B.     Previous work showcase_**      | 4      |   5 |
+| **_C.     Increase social media followers_** | 2      |    4 |
+| **_D.     Addition of social networking features such as instant messaging etc_** | 5      |    1 |
+| **_E.     Creating a user backend to manage work requests / ie: user dashboard_** | 4      |    1 |
+
+
+**Graph of importance in order to launch our MVP from previous table.**
+
+![HydraExplorer MVP prioritisation ](assets/img/matrix.png)
+
+
 
 As i aim to build upon the initial features of this web app i suggest the following strategy in order to allow the web app to grow exponentially without the need for excess page creation.
 I am using templating from Handlebars and jQuery to pull in JSON data on a hard coded template page, this will pull in all data related to the user and display it on their very own user page, with their id number. This furthermore allows me to just hard code one page Users.html and not create pages for each individual musician.
@@ -183,7 +208,7 @@ They need a clean and tidy designed website which is mobile responsive, highligh
 
 * An iOS and android app – its true that many users now if these features down the line are implemented that developing an application would be of extreme beneft, it would allow extra monetisation brand awareness and next level professionalism, as far as I am aware there are no such apps with the previous aforementioned features bundled into one. This could be an avenue to explore in the future. I have been exploring this avenue with my mentor Allen and he has suggested that in the future it would be wise if this approach were to be undertaken that it would / should be produced using Dart and Flutter from Google, Reasoning behind this is that i would only be looking at maintaining one code base for the web application iOS and Android applications.
 
-#### **Scope plane continued in full lengh analysis .pdf**
+
 
 
 ## 🏗️ **Structure: How we present information:**
