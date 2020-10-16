@@ -3,11 +3,10 @@
 // */
 
 // $(document).ready(function () {
- 
+
 // let darkmode = localStorage.getItem('darkMode');
 // const darkModeToggle = document.querySelector('#darkmodetoggle');
 
- 
 // //check if dark mode is enabled, if disabled turn on.
 
 // const enableDarkMode = () =>{
@@ -24,7 +23,7 @@
 //     localStorage.setItem('darkMode', null);
 // };
 
-// // check mode from previous. 
+// // check mode from previous.
 
 // if (darkMode ==='enabled') {
 //     enableDarkMode();
@@ -43,65 +42,55 @@
 
 // });
 // })
- 
-
-
 
 $(document).ready(function () {
+  // alert('check1 check2.... test toggle now in console');
 
-// alert('check1 check2.... test toggle now in console');
+  let darkMode = localStorage.getItem("darkMode");
 
+  const darkModeToggle = document.querySelector("#dark-mode-toggle");
 
-let darkMode = localStorage.getItem('darkMode'); 
+  //test on page load if dark mode enables..
 
-const darkModeToggle = document.querySelector('#dark-mode-toggle');
+  console.log(darkMode);
 
-//test on page load if dark mode enables..
+  //check if Dmode is enabled, if enabled turn it off if dis turn it on.
 
-console.log(darkMode);
+  const enableDarkMode = () => {
+    //add class dark mode to body.
+    document.body.classList.add("darkmode");
+    //and update dark mode in locale storage.
+    localStorage.setItem("darkMode", "enabled");
+  };
 
-//check if Dmode is enabled, if enabled turn it off if dis turn it on.
+  const disableDarkMode = () => {
+    //remove class dark mode to body.
+    document.body.classList.remove("darkmode");
+    //and update dark mode in locale storage.
+    localStorage.setItem("darkMode", null);
+  };
 
-const enableDarkMode = () => {
-//add class dark mode to body. 
-document.body.classList.add('darkmode');
-//and update dark mode in locale storage. 
-localStorage.setItem('darkMode', 'enabled');
-};
+  //check for previous visit for dark mode enable or disable. Then test.
 
-const disableDarkMode = () => {
-//remove class dark mode to body. 
-document.body.classList.remove('darkmode');
-//and update dark mode in locale storage. 
-localStorage.setItem('darkMode', null);
-};
-
-
-//check for previous visit for dark mode enable or disable. Then test.
-
-if (darkMode === 'enabled') {
+  if (darkMode === "enabled") {
     enableDarkMode();
-}
+  }
 
-darkModeToggle.addEventListener('click',() => {
-// console.log('test click event listener');
+  darkModeToggle.addEventListener("click", () => {
+    // console.log('test click event listener');
 
-//set up if statement 
-darkMode = localStorage.getItem('darkMode');
-if (darkMode !== 'enabled') {
-    enableDarkMode();
-    console.log(darkMode);
+    //set up if statement
+    darkMode = localStorage.getItem("darkMode");
+    if (darkMode !== "enabled") {
+      enableDarkMode();
+      console.log(darkMode);
 
-    
-        $('#dark-mode-toggle').removeClass('btn-dark').addClass('dark-btn');
-        console.log('darkbutton toggler test')
-}
-else {
-    disableDarkMode();
-    console.log(darkMode);
-    $('#dark-mode-toggle').removeClass('dark-btn').addClass('btn-dark');
-}
-
-});
-
+      $("#dark-mode-toggle").removeClass("btn-dark").addClass("dark-btn");
+      console.log("darkbutton toggler test");
+    } else {
+      disableDarkMode();
+      console.log(darkMode);
+      $("#dark-mode-toggle").removeClass("dark-btn").addClass("btn-dark");
+    }
+  });
 });
