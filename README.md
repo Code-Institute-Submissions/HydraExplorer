@@ -51,16 +51,24 @@ ___
 * **[PESTICIDE](https://www.google.com):** -  This extension inserts (with auto reload) the Pesticide CSS into the current page, outlining each element. - Giving a good visual representation of containers rows etc, as i was using material design from MDBootstrap i was inserting containers in to containers in points to get the desired layout and style, this extension allowed me to view the layout correctly. 
 * **[JSON VIEWER AWESOME](https://chrome.google.com/webstore/detail/json-viewer-pro/eifflpmocdbdmepbjaopkkhbfmdgijcc):** - A extension to visualise JSON response in awesome Tree and Chart view, helped me with writing jQuery with regards to how to access the correct JSON values.
 * **[RESPONSIVE VIEWER](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb):** -  An excellent extension suggested to me by my Mentor Allen - A Chrome extension to show multiple screens in one view. the extension will help front-end developers to test multiple screens while developing responsive websites/applications.
-
-
-
-
+* **[GIFY](https://giphy.com/):** - Used to create the .gif file in readme depicting the responsive viewer in action and showing my testing on different screen sizes. 
 
 ___
 
 
-## 🧑‍🎨 **UX:** 
-___
+## 🧑‍🎨 **UX:** **User Experience Design (UX)**
+ ___
+Developed from the code institute full stack web developer module on UX design.
+
+**What is UX:**
+
+User Experience Design is the work, processes and skillsets involved in creating useful useable products which provide value not only to the customer but the business owner ensuring that a product not only works but is intuitive, simple, and enjoyable to use.. A good UX experience is achieved by following a defined process called User Centred Design or UCD for short.
+
+I haven chosen to recreate a feature from my current business following best practice UX principals and will apply them to reassess the current needs and wants of my customers and future potential clients.
+
+I felt like tackling a business which I am currently involved in would give me a better understanding of implementing UX principals which will then allow me to generate better UX designs in the future with a stronger understanding of the core principals.
+
+I will aim to cover the different planes in detail so that this document can be used as a blueprint for future UX development I undertake.
 
 
 ## 💡 **Strategy plane: The Initial idea.**
@@ -69,10 +77,82 @@ The basis behind the HydraExplorer idea, was to start a web app which allows use
 
 The web app, should, display musician data in a clear and unclutted manner,for best UX and also allow the user of the web app to find the correct user by service with extreme ease. I will acomplish this by the use of jQuery to provide hide effects and also to change hero sections based on user selections. 
 
+Regarding the website, my current business website  currently residing at https://hydrasound.com is currently deployed using the Wordpress CMS platform, with a front end page builder called Elementor.
+
+However I felt that I could overhaul and run a full UX analysis on the site in order to improve the user experience, through page speed ( I found that Wordpress once you start loading multiple plugins the website becomes slow and has a tendency to need frequent updating and maintenance.) improved navigation and to better display appropriate content to display what my site offers for potential clients.
+
+
 
 ## **About the business:**
 
 The business is entirely online and is concerned with music production services provided by musicians who can add their details to the Hydra Database (for now this is hard coded in JSON format). From Mixing, mastering, track production, consulting etc with the primary aim of the website to display that information and get the potential client to contact users directly using the forms provided on their individual users page to discuss their needs further.
+
+**Strategy to deliver above.**
+
+* A clear and simple design starting with the Hero section displaying the Name and tag line to establish the message of the site.
+* 	Landing page explains through a text box About the site in the first section.
+* 	First section offers users a button selector using jQuery to fade out inappropriate results
+* 	A clear selection of user cards, displaying their main credentials
+* 	Addition of a Call to action within the user card in order to view that individuals complete profile.
+
+**Branding:**
+I own the domain name https://hydrasound.com and my business name follows suit with the strap line HydraExplorer – Find your music professional
+I don't have a logo as present for the HydraExplorer and wish to be represented as serious and professional.
+
+**Strategy to deliver above.**
+All of the below points should fulfil 'user first impressions' (see table below) and is especially importance in our B2C business.
+
+*	Develop a logo – which is simple but effective, as full txt for a nav bar section may be too long. Logo will also act as a link back to the home page as common practice. *credibility and trustworthiness.
+*	Develop a professional colour scheme – check out competitors in not only music but business-related websites. Use consistently throughout site.
+*	Choose a font type for the project which reflects what we are trying to achieve – research music platforms and use similar fonts. Spotify similar fonts -two come to mind straight away. “Montserrat” and “Poppins” Use consistently throughout site. HydraExplorer will employ ‘Poppins font’
+
+*	Utilise the bootstrap card deck to display the users in a professional and easy to ‘learn’ manner.
+*	Develop a footer with info section and contact details on the main index.html. Footers will be autogenerated on the Users.html to provide relevant information about the artist/ user specific page.
+
+| User first impressions        | How to achieve          |
+| ------------- |:-------------:|
+| **_Does it look credible and trustworthy?_**  | Yes – through colour palette, fonts,  testimonials, social proof and displays of current work. |
+| **_Does it offer what I want?_**  | Yes – Clear display of services related to and relevant to the music industry. |
+| **_Does it look valuable enough for me to stay?_**  | .Professional design, clear and simple navigation, displayed is an easy to read manner. Mobile responsive. |
+| **_Does it look valuable enough for me to return?_**  | YNo hard sell but only offering our users profiles / services |
+| **_What actions can I take now?_**  | A clear Call to action labelled 'Contact me' on the user profiles, allowing user to fill in a form to request to work with the desired user. |
+| **_How do I learn more?_**  | A clear Call to action labelled 'Profile and all internal links go to appropriate content and user page for the correct service required. |
+| **_How do I contact someone?_**  | Footer provides direct contact details for the webmaster. User profiles all contain a web form to contact the site and request to work with a user with clear CTA under their name in the hero section of their user profile. |
+
+
+
+**What is culturally appropriate**
+In relation to this project I have found that the brand name stands for a lot right from the offset. Our website is only concerned with displaying user specific services within the music industry 
+We keep the site strictly about musical endeavour and focus solely on providing the users landing pages to provide evidence of their work and expertise.
+I have also developed the site to be mobile first as our demographic for clients looking for our services seems to be in the  male category and age range of 22-34, whereby we know its highly likely that users have access to a smart phone and will be accessing our website from mobile.
+
+**Tracking and cataloguing content in an intuitive way.**
+
+Regarding the display of the content I have opted for a typical section style layout to the site, this meaning I have a hero section and subsequent blocks of content each separated by alternating background colours, an off white and white to ensure content separation is apparent. I have also provided in this a toggler button using jQuery to enable a dark mode, so that users can optionally switch to a mode which makes the user cards stand out even more when a service button is selected.
+
+Typically in modern web design a hero section is employed so I have taken advantage of that with a centered H1 and H2 Heading for site title and strap line, using a more bolded font to make an impact from first page load. This screams to the user, this is the site title and this is what you can do here.
+I also used a background image which is relevant (musically) to display the field the website is addressing. One concern is the bright image was taking away from the Hero text, so a background overlay was used in order to fix this. Not only that but the background overlay is the main colour in the colour palette chosen again adding to our branding and overall UX experience for the potential client.
+
+**What is the importance of this.**
+
+From the first time the user visits the website we want to display a level of professionalism and ease of use, not only that our strap lines, branding and colour palettes are correct but our content is distraction free and displayed easily enough that a user can learn about our website and feel at ease very quickly. Becoming instantly trustworthy is a primary focus and puts the potential client at ease when considering they could spent a lot of money with us after they make contact.
+Not only that but to display top level clientele and labels we work with it also allows the client to visualise the level we work at and increases our trustworthiness. This is important when working remotely knowing that a level of professionalism is maintained and that results are delivered. Clients should feel like we are delivering around the clock, from our online presence, how the website works, looks feels and our displays of current work. This should all work cohesively in order allow the client to feel like they are making an informed choice.
+
+**Why would a user want this.**
+Music production services are expensive for those who don't wish to learn the profession themselves, although a lot of websites may offer services, it should be noted that there is no quality assurance in the industry. It mainly works on word of mouth, professionalism and who our current clients are. It is important that our website portrays all of these factors so that a new client feels comfortable enough to use the CTA form on the user specific pages to approach us with confidence knowing they will get a professional level of service from start to finish. Not only that but providing direct contact details of the webmaster on the footer section also allows me to deal with and enquiries or questions the user may have.
+
+Once a client makes contact it is often that we get repeat business from them so to display an array of services on the site all presented correctly will allow the client to return to our site time again find the service they require, make contact easily and book our users again.
+This was an important part in the planning of the website, how to template the user cards and assign a user id to allow for the easy addition of more users to the database in the future. 
+
+**What creates a good User Experience with regard to this online Music production service finder business.**
+
+*	Strong branding – colour palette – typical industry typography.
+*	Seeing relevant previous work. - the user specific page achieves this, by displaying spotify top tracks, biography gallery etc.
+*	Meeting the person they are going to be working with virtually, the user page provides all relevant data.
+*	Social proof – social media presence, all users social links displayed under bio.
+*	Call to actions with complimentary advice or request phone call to discuss needs.
+*	Means in which to contact the website or myself across timezones and countries.
+
 
 
 
