@@ -468,3 +468,23 @@ padding: 10px;
  .darkmode .dm-txt-white { 
     color: white;
 }
+
+/* media query from chrome */
+
+@media all and (max-width: 425px) {
+    .hero-text h1 {
+    font-size: 90px;
+}
+
+/* media query from chrome */
+ 
+   .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    right: 10%;
+    color: white;
+}
+
+}

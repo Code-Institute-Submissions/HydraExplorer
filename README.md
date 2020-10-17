@@ -60,6 +60,10 @@ ___
 * **[RESPONSIVE VIEWER](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb):** -  An excellent extension suggested to me by my Mentor Allen - A Chrome extension to show multiple screens in one view. the extension will help front-end developers to test multiple screens while developing responsive websites/applications.
 * **[GIFY](https://giphy.com/):** - Used to create the .gif file in readme depicting the responsive viewer in action and showing my testing on different screen sizes. 
 
+* **[WEB FONT GENERATOR](https://www.fontsquirrel.com/tools/webfont-generator):** - Used to bring in a custom font i wanted to use for the main H1/ H2 sections, custom branding.
+
+
+
 ___
 
 
@@ -321,7 +325,6 @@ add features:
 * Hero sections change on service section mouse over.
 * jQuery animations used to fade out irrelevant options as selected by the user, Button click events allow this. 
 
-
 * The Logo position left always takes the user back to the Home page.
 * Google Maps used so that users can see the users location. This is using an API from Google and programmed in javascript. 
 * Social media icons are active and link to relative external platforms using data from JSON to change the href attributes on the users.html pages for each user.
@@ -338,9 +341,6 @@ using the templated page i then used the jQuery library to populate the user spe
 
 * As i produced the first version of the site, i thought it may be good to employ the use of a dark mode toggle function. This dark mode uses Dark mode CSS to change the background of the white containers to my branded grey slate colour. I found this useful for UX as especially with jQuery fade features it really stood out presenting the data far better. 
 * in addition to dark mode i added a local storage feature to the dark mode so even on page refresh dark mode is still active if it was previous, this will also be indicated with the dark mode toggle button, when active the button is highlighted in a green 'On' status. 
-
-* 
-
 
 ### **_Code Refactoring_:** 
 ___
@@ -379,6 +379,35 @@ Resulting in:
 
 ```
 
+Furthemore i implemented a media query after using the Repsonsive Viewer extension for chrome and it was evident that the hero txt on smaller screen resolutions such as iphone 6-7 it felt like the hero txt was too low in comparison with other screen sizes i used this code to rectify the problem and images below show a before and after comparison of a better looking UX 
+
+```css
+/* media query from chrome - addition of this media query to line up hero text better on smaller screen sizes. */
+
+@media all and (max-width: 425px) {
+    .hero-text h1 {
+    font-size: 90px;
+}
+
+/* media query from chrome */
+ 
+   .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    right: 10%;
+    color: white;
+}
+
+```
+### **Before:**
+
+![Before media query for smaller screen size resolutions](assets/img/beforemedia.png)
+### **After Examples:**
+
+![After media query for smaller screen size resolutions](assets/img/aftermedia.png)
+![After media query for smaller screen size resolutions](assets/img/useraftermedia.png)
 
 
 
@@ -408,12 +437,14 @@ I tested all parts of the website including Bootstrap components, as i used:
 * Home Button always returns user to index.html
 * HE Logo always returns user to index.html
 * Dark mode toggles dark mode on and off, green highlight button works, also logs status to console.
+* Refreshing the page and navigating away, opening a new tab and retrieving page again using localstorage Dark mode status remembered.
 *  All button returns all card selectors to inital state.
 * Singers button displays only users with singer class.
 * Producers button displays only users with producer class.
 * Remixers button displays only users with remixer class.
 * Consultancy button displays only users with consultant class.
 * Hovering over 'singer' 'producer' 'remixers' and 'consultancy' block images changes Hero image to appropriate background image.
+* Handlebars.js - iterates over JSON data and displays correct data and all users displayed without error. 
 * Card templating, returns all users in JSON object 'users'
 * Card templating displays correct information for all users: Name, type, genre, location, country and tags.
 * Card templating profile button assigns correct user ID for all users
@@ -451,8 +482,6 @@ After my initial mentor session to discuss the idea and scope of the project i m
 My third session covered what points i should highlight in my readme.md file. Which included mentioning the Templating function using Handlebars.js the specific code to grab the user id from the url and a few other things. We went over my project folder structure and naming conventions to ensure these were correct before submission,as this was highlighted in my milestone 1 submission. 
 
 He was happy with the level of independence i had shown on this project and we then finalised the check list ensuring all criteria was covered. 
-
-
 
 ### **Further Testing:**
 * The use of validation services for **[Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/)** and **[HTML Validator](https://validator.w3.org/)** allowed me to modify and fix any errors in my code, 
@@ -493,9 +522,7 @@ If you should require to fork or obtain a copy of this website you can follow th
 1. Visit my Github repo here **[HydraExplorer Repo](https://github.com/danielboots/HydraExplorer):**
 1. Click on the GREEN clone or download button, located at the top right of the page see screenshot below.
 
-
     ![Repo Clone step](assets/img/clone.png)
-
 
 1. Click on the "clipboard" also located on the right now seen as a dropbown box. You can either click the clipboard or the URL, if using URL method remember to right click highlighted URL and copy.
 1. Open your IDE and open a new terminal window.
@@ -562,3 +589,10 @@ Over the course of my project i used various sources for media -
 
 
 ### **Thanks** 
+
+I would like to thank once again my mentor Allen for his continued support and general guidance and chats we have not only about project specific but moving forward, i like to ask him questions about future proofing myself to which he happily gives me so much good advice on, not only that but also telling me about the chrome plugin Responsive Viewer, which saves so much time!! Thanks Allen.
+Also my fiance and my family and children, coding especially this project has been a massive up hill challenge and at times stressful to which my fiance especially is there listening to me talking absolute nonsense to which she doesnt know anything about, i can explain jQuery locale storage etc to her and she just listens, sometimes just trying to explain topics helps it settle in your brain, so without telling me to simply shut up she puts up with my waffling on, and she doesnt know how much that helped.
+
+I would also like to give a thanks to Miklos at code institute who i had a great conversation with and he helped me with how to hard code my users.html page instead of templating it out using handlebars, looking back this was a life saver conversation to which im truly thankful as, it helped me accomplish the project to the full extent of how i envisioned it. So cheers Miklos!
+
+
