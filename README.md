@@ -16,7 +16,7 @@ visit the deployed website here: ****[Hydrasound Explorer deployed on Github Pag
 
 **Hydrasound Explorer** HydraExplorer is the start of an application i have been wanting to build for a while, where it will allow users to find Hydrasound members with the particular skills they are looking for. 
 For example a user can search for Remixers or music consultantcy services and our application will return the relevant results. The results are then associated with their own user page for further infomation and contact details.
-I decided to approach the web app using the front end DOM manipulation skills and frameworks i have learned so far from the code institute full stack course. Primarily Javascript and Jquery amonst other technologies.
+I decided to approach the web app using the front end DOM manipulation skills and frameworks i have learned so far from the code institute full stack course. Primarily Javascript and jQuery amonst other technologies.
 
 I aim to build the web application following web best practices and also to fulfill my need to present user information on the application  which is not only well structured but is also mobile responsive. 
 
@@ -32,12 +32,14 @@ ___
 
 * **[JAVASCRIPT](https://developer.mozilla.org/en-US/docs/Web/JavaScript):** - *As part of Bootstrap* Javascript although i havent programmed it, was included in the site as part of the Bootstrap framework so that some Bootstrap components such as the navigation toggler would work.
 
-* **[JQUERY](https://jquery.com/):** - *Extensive parts of the web application are programmed in Jquery, click event listeners on page loads and loading of the users data all employ the use of JQuery.*
+* **[JQUERY](https://jquery.com/):** - *Extensive parts of the web application are programmed in jquery, click event listeners on page loads and loading of the users data all employ the use of jQuery.*
 
 * **[BOOTSTRAP](https://getbootstrap.com/):** - The framework for the site allowing use of the Bootstrap grid and responsive mobile first approach. I Used many components from Bootstrap mainly, the Carousel, Nav bar, forms and modals. 
 * **[MDBOOTSTRAP](https://mdbootstrap.com/):** - The framework based on Google Material Design for Bootstrap. 
 
 * **[HANDLEBARS.JS](https://handlebarsjs.com/):** - Handlebars allowed me to template out the user cards on the front page from JSON data. It worked by iterating over the JSON users data and running its templating functionality to provide me with the boostrap cards for users which i needed. Reasoning for this instead of hard coding was ease of use, to add a new user i just add the new user to the JSON data and the templating is handled for me.
+
+* **[EMAIL.JS](https://www.emailjs.com/):** - Email.js was used to add front end email functionality to the contact request form. 
 
 * **[GOOGLE MAPS](https://developers.google.com/maps/documentation):** - I used the Google Maps API in order to add in user data to the map providing a visual representation to users of where the 'professional musician' is based.
 
@@ -61,6 +63,8 @@ ___
 * **[GIFY](https://giphy.com/):** - Used to create the .gif file in readme depicting the responsive viewer in action and showing my testing on different screen sizes. 
 
 * **[WEB FONT GENERATOR](https://www.fontsquirrel.com/tools/webfont-generator):** - Used to bring in a custom font i wanted to use for the main H1/ H2 sections, custom branding.
+
+* **[AM I RESPONSIVE](http://ami.responsivedesign.is/):** - Used to generate the header image displayed at top of Readme.md file depicting 4 screen displays.
 
 
 
@@ -320,7 +324,7 @@ Brian O'Grady - Code Institute
 
 
 ## 📦️ **Features:** 
-add features: 
+
 * The web app is totally mobile responsive with a collapsible toggler navigation. 
 
 * The site has features such as Youtube and Spotify embeded into it, pulled in through JSON data.
@@ -517,7 +521,8 @@ what i do like about this tool is that it even tells you what line to look at fo
 * I finally used **[GTMETRIX](https://gtmetrix.com/)** which is used to test page website speeds. All testing came back fine apart from image sizes which scored pretty low. Thus i used the free online **[SQUOOSH](https://squoosh.app/)** to reduce massive image sizes upto 80% of their original file size. This is especially important as large image sizes dramatically increase page loading speeds and leads to a bad UX especially on mobile where heavy loading sites can eat data very quickly. 
 
 
-### **Testing Issues / known bugs:*
+___
+### **Testing Issues / known bugs:**
 
 **_HTML Validation error when using Youtube embed._** 
 
@@ -642,6 +647,6 @@ Here are a list of tutorials which i followed or watched in some form to help me
 I would like to thank once again my mentor Allen for his continued support and general guidance and chats we have not only about project specific but moving forward, i like to ask him questions about future proofing myself to which he happily gives me so much good advice on, not only that but also telling me about the chrome plugin Responsive Viewer, which saves so much time!! Thanks Allen.
 Also my fiance and my family and children, coding especially this project has been a massive up hill challenge and at times stressful to which my fiance especially is there listening to me talking absolute nonsense to which she doesnt know anything about, i can explain jQuery locale storage etc to her and she just listens, sometimes just trying to explain topics helps it settle in your brain, so without telling me to simply shut up she puts up with my waffling on, and she doesnt know how much that helped.
 
-I would also like to give a thanks to Miklos at code institute who i had a great conversation with and he helped me with how to hard code my users.html page instead of templating it out using handlebars, looking back this was a life saver conversation to which im truly thankful as, it helped me accomplish the project to the full extent of how i envisioned it. So cheers Miklos!
+I would also like to give a thanks to Miklos at code institute who i had a great conversation with and he helped me with how to hard code my users.html page instead of templating it out using handlebars, looking back this was a life saver conversation to which im truly thankful as, it helped me accomplish the project to the full extent of how i envisioned it.
 
 
