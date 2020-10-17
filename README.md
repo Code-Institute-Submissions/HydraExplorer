@@ -523,6 +523,21 @@ what i do like about this tool is that it even tells you what line to look at fo
 
 As explained above, i do get an error for youtube embed as the youtube embed uses an iFrame, for this project i am aware of this bug but happy to proceed.
 
+**Dark Mode - Green active state remembered** - this bug is now fixed, however i came across a bug which was simple to fix, it involved the dark mode active (green mode) to indicate dark mode is active. This bug reset the button back to its initial state on page refresh, even if the dark mode from local storage was still enabled. To fix this i copied the below code to the if statement checking for 'if' dark mode is active (Darkmode.js ln 82-85)
+
+```javascript
+
+if (darkMode === "enabled") {
+    enableDarkMode();
+     //using local storage to test if button class remembered< YES this now works, remembers on state and sets button to green if active
+    $("#dark-mode-toggle").removeClass("btn-dark").addClass("dark-btn");
+  }
+
+  ```
+
+This when testing fixed the issue of the green dark mode button resetting itsself to its initial state. Now on page refresh, if dark mode is active then the button is also active and green,visually representing the on status, further more the click event listener is still employed so this can then be overidden if the user toggles the dark mode on and off again.
+
+
 ___
 
 

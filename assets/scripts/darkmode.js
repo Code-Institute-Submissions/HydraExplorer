@@ -62,9 +62,8 @@ $(document).ready(function () {
     //and update dark mode in local storage.
     localStorage.setItem("darkMode", "enabled");
 
-    //using local storage to test if button class remembered.
-    $("#dark-mode-toggle").removeClass("btn-dark").addClass("dark-btn");
-      console.log("darkbutton toggler test");
+   
+      
     
     
   };
@@ -74,13 +73,15 @@ $(document).ready(function () {
     document.body.classList.remove("darkmode");
     //and update dark mode in locale storage.
     localStorage.setItem("darkMode", null);
-     $("#dark-mode-toggle").removeClass("dark-btn").addClass("btn-dark");
+
   };
 
   //check for previous visit for dark mode enable or disable. Then test.
 
   if (darkMode === "enabled") {
     enableDarkMode();
+     //using local storage to test if button class remembered.
+    $("#dark-mode-toggle").removeClass("btn-dark").addClass("dark-btn");
   }
 
   darkModeToggle.addEventListener("click", () => {
