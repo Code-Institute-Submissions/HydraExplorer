@@ -479,6 +479,24 @@ I tested all parts of the website including Bootstrap components, as i used:
 * Copyright / footer data pulled from JSON displays correct.
 
 
+**Screen size testing**
+
+![Screen Size and Resolution](assets/img/multiscreen.png)
+
+As displayed, i used the Responsive Viewer Chrome plugin to test a multitude of the most popular screen sizes available. Which included.
+
+* Medium Screen - 1024x800 
+* Large Screen -  1280x800
+* iPhone 8,7,6S,6 - 375x667
+* iPhone 8 Plus, 7 Plus, 6S plus - 414x736
+* Galaxy S9 Plus, S8 Plus - 412x846
+* Pixel 3, 3 XL - 393x786
+* Galaxy S9, Note 8, S8 - 360x 740
+* iPhone XS, X - 375x812
+* iPhone XR, XS MAX - 414x896
+
+
+
 
 ### **Utilising Mentor and tutor Sessions:**
 
