@@ -2,7 +2,7 @@
 
 ## 🎵 **Hydrasound - Explorer** - _Find your music professional_
 
-![MPS logo and strap line ](assets/img/hydraEx.png)
+![MPS logo and strap line ](assets/img/hydraRes.png)
 
 ![index gif](assets/media/mediasize.gif)
 ![user gif](assets/media/user.gif)
@@ -247,7 +247,11 @@ section the second will offer my own contact details.
 
 * Users.html will be a hard coded template page which pulls in **JSON** data using **AJAX**, this will allow me to create one hard coded page which using javascript allows me to display the correct user data for the selected page. 
 
-* A working example of the above would mean that when a user selects the option for a consultancy agency the options **HYDRASOUND** and **EDDIE GORDON** are highlighted. If the user selects Hydrasound, then i have coded that option to have an id of 1. When clicking, data is poipulated in the USERS.HTML to show JSON data from the user with the id of 1. This id is grabbed from the URL using Javascript code in the main.js file. The code to achieve this is below.
+* A working example of the above would mean that when a user selects the option for a consultancy agency the options **HYDRASOUND** and **EDDIE GORDON** are highlighted. If the user selects Hydrasound, then i have coded that option to have an id of 1. When clicking, data is poipulated in the USERS.HTML to show JSON data from the user with the id of 1. This id is grabbed from the URL using Javascript code in the main.js file. The code to achieve this is below. 
+
+**Copied directly from this video (as couldnt find the referenced stackoverflow code):**
+
+https://youtu.be/qoN6-rWIYrk?t=376 - timestamped at time for code.
 
 ``` javascript
 
@@ -486,18 +490,39 @@ He was happy with the level of independence i had shown on this project and we t
 ### **Further Testing:**
 * The use of validation services for **[Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/)** and **[HTML Validator](https://validator.w3.org/)** allowed me to modify and fix any errors in my code, 
 
+### **Results from CSS and HTML validation:** 
+No errors found, i did use the direct input to the CSS validator service as i am using external frameworks such as Bootstrap and MDBOOTSTRAP which did return some warning errors when using the URL input. However these are out of my control so opting for direct input of my CSS allowed me to test my code only. 
+
+![CSS valid](assets/img/cssvalid.png)
+
+**HTML-Validation**
+![HTML Error](assets/img/htmlerror.png)
+
+Using these warnings i identified a few changes to be made in order to pass HTML validation, fixing these provided me with the pass, again apart from youtube iFrame embed which i am aware of. 
+
+![HTML Pass](assets/img/htmlfix.png)
+
+### **Other Testing criteria:**
+
+
+
+
 * I Used the Gitpod built in html testing as seen below![iframe testing error on HTML validator](assets/img/errortest.png) which ended up being a great learning tool spotting errors or unclosed ```<.div>``` etc.
 I should also add that this tool brought to my attention that as i was using multiple forms on pages that my ID's needed to be unique, an issue which was quickly rectified but easily overlooked. 
 what i do like about this tool is that it even tells you what line to look at for the aformentioned error.
+
 
 * Emmet is also a great testing tool as if you do get errors or unclosed tags it will suggest to you the closing tag to use. I find this very helpful in bug fixing and testing.
 
 * I finally used **[GTMETRIX](https://gtmetrix.com/)** which is used to test page website speeds. All testing came back fine apart from image sizes which scored pretty low. Thus i used the free online **[SQUOOSH](https://squoosh.app/)** to reduce massive image sizes upto 80% of their original file size. This is especially important as large image sizes dramatically increase page loading speeds and leads to a bad UX especially on mobile where heavy loading sites can eat data very quickly. 
 
 
-### **Testing Issues:*
+### **Testing Issues / known bugs:*
 
-### **_HTML Validation error when using Youtube embed._** 
+**_HTML Validation error when using Youtube embed._** 
+
+As explained above, i do get an error for youtube embed as the youtube embed uses an iFrame, for this project i am aware of this bug but happy to proceed.
+
 ___
 
 
@@ -565,11 +590,20 @@ Over the course of my project i used various sources for media -
 
 ### **Code Snippets** 
 
-* **Carousel** - Bootstrap - https://getbootstrap.com/docs/4.0/components/carousel/
-* **NavBar** - Bootstrap -   https://getbootstrap.com/docs/4.0/components/navbar/
-* **Modal** - Bootstrap - https://getbootstrap.com/docs/4.0/components/modal/
-* **Forms** - Bootstrap - https://getbootstrap.com/docs/4.0/components/forms/
-* **Card Deck** - Bootstrap - https://getbootstrap.com/docs/4.0/components/card/
+
+* **NavBar** - MDBootstrap -https://mdbootstrap.com/docs/jquery/navigation/navbar/
+* **Forms** - MDBootstrap - https://mdbootstrap.com/docs/jquery/forms/basic/
+* **Cards** - MDBootstrap - https://mdbootstrap.com/docs/jquery/components/cards/
+
+### **Tutorials** 
+Here are a list of tutorials which i followed or watched in some form to help me learn more about how to acomplish the project, any code referenced from these videos have been commented in the .js files correctly.
+
+* **Google Maps API- Brad Traversy:** - https://www.youtube.com/watch?v=Zxf1mnP5zcw
+* **AJAX and JSON:** - https://www.youtube.com/watch?v=rJesac0_Ftw
+* **Handlebars.js:** - https://www.youtube.com/watch?v=wSNa5b1mS5Y
+* **Handlebars.js - free course youtube by Rich Finelli :** - https://www.youtube.com/watch?v=2sXjmewEQOY&list=PLtV5RF44Yj8S4RcpQehL-2XMuVsJXwNvK 
+
+* **Darkmode -Local Storage :** - https://www.youtube.com/watch?v=wodWDIdV9BY
 
 ### **Media Embeds** 
 
